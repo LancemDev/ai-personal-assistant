@@ -188,7 +188,7 @@ class Siri:
         return ai_response or "Sorry, I'm not sure how to respond to that."
 
     # Pyttsx3 Approach (Weaker Audio Quality)
-    def text_to_speech(self, text: str) -> None:
+    # def text_to_speech(self, text: str) -> None:
         """
         Converts text to speech using Pyttsx3's text-to-speech API.
 
@@ -196,22 +196,22 @@ class Siri:
             text (str): The text to convert to speech.
         """
 
-        self.pyttsx3_engine.setProperty("volume", 1.0)
-        self.pyttsx3_engine.setProperty("rate", 125)
+        # self.pyttsx3_engine.setProperty("volume", 1.0)
+        # self.pyttsx3_engine.setProperty("rate", 125)
 
-        voices = self.pyttsx3_engine.getProperty("voices")
+        # voices = self.pyttsx3_engine.getProperty("voices")
 
-        # Set voice to Female.
-        self.pyttsx3_engine.setProperty("voice", voices[0].id)
+        # # Set voice to Female.
+        # self.pyttsx3_engine.setProperty("voice", voices[0].id)
 
-        self.pyttsx3_engine.say(text)
-        self.pyttsx3_engine.runAndWait()
+        # self.pyttsx3_engine.say(text)
+        # self.pyttsx3_engine.runAndWait()
 
-        self.pyttsx3_engine.stop()
+        # self.pyttsx3_engine.stop()
 
 
     # OpenAI Approach (Best Quality Audio with multiple voice available).
-    # def text_to_speech(self, text: str) -> None:
+    def text_to_speech(self, text: str) -> None:
         """
         Converts text to speech using OpenAI's text-to-speech API.
 
@@ -219,22 +219,22 @@ class Siri:
             text (str): The text to convert to speech.
         """
 
-        # stream = pyaudio.PyAudio().open(
-        #     format=pyaudio.paInt16, channels=1, rate=24000, output=True
-        # )
-        # stream_start = False
+        stream = pyaudio.PyAudio().open(
+            format=pyaudio.paInt16, channels=1, rate=24000, output=True
+        )
+        stream_start = False
 
-        # with self.openai_client.audio.speech.with_streaming_response.create(
-        #     model="tts-1", voice="nova", response_format="pcm", input=text
-        # ) as openai_response:
-        #     silence_threshold = 0.1
-        #     for chunk in openai_response.iter_bytes(chunk_size=1024):
-        #         if stream_start:
-        #             stream.write(chunk)
+        with self.openai_client.audio.speech.with_streaming_response.create(
+            model="tts-1", voice="nova", response_format="pcm", input=text
+        ) as openai_response:
+            silence_threshold = 0.1
+            for chunk in openai_response.iter_bytes(chunk_size=1024):
+                if stream_start:
+                    stream.write(chunk)
 
-        #         elif max(chunk) > silence_threshold:
-        #             stream.write(chunk)
-        #             stream_start = True
+                elif max(chunk) > silence_threshold:
+                    stream.write(chunk)
+                    stream_start = True
 
 
     # def text_to_speech(self, text: str) -> None:
@@ -266,7 +266,7 @@ class Siri:
 
         # After the audio is played, delete the audio file.
         # if os.path.exists(response_audio_file_path):
-            # os.remove(response_audio_file_path)
+        #     os.remove(response_audio_file_path)
 
     def analyze_image_prompt(self, prompt: str, image_path: Path) -> str:
         """
