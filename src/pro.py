@@ -21,7 +21,7 @@ import utils
 import webcam
 
 
-class Siri:
+class Pro:
     """
     A multi-modal AI voice assistant that responds to user prompts
     by processing voice commands and context from images or clipboard content.
@@ -36,7 +36,7 @@ class Siri:
         openai_api_key: str | None,
     ) -> None:
         """
-        Initializes the Siri assistant with API clients for Groq, OpenAI, and Google Generative AI.
+        Initializes the Pro assistant with API clients for Groq, OpenAI, and Google Generative AI.
 
         Args:
             log_file_path (Path): Path to the log file.
@@ -188,22 +188,22 @@ class Siri:
 
         # USAGE: OpenAI approach (Use this if you have credits in your OpenAI account)
 
-        stream = pyaudio.PyAudio().open(
-            format=pyaudio.paInt16, channels=1, rate=24000, output=True
-        )
-        stream_start = False
+        # stream = pyaudio.PyAudio().open(
+        #     format=pyaudio.paInt16, channels=1, rate=24000, output=True
+        # )
+        # stream_start = False
         
-        with self.openai_client.audio.speech.with_streaming_response.create(
-            model="tts-1", voice="nova", response_format="pcm", input=text
-        ) as openai_response:
-            silence_threshold = 0.1
-            for chunk in openai_response.iter_bytes(chunk_size=1024):
-                if stream_start:
-                    stream.write(chunk)
+        # with self.openai_client.audio.speech.with_streaming_response.create(
+        #     model="tts-1", voice="nova", response_format="pcm", input=text
+        # ) as openai_response:
+        #     silence_threshold = 0.1
+        #     for chunk in openai_response.iter_bytes(chunk_size=1024):
+        #         if stream_start:
+        #             stream.write(chunk)
         
-                elif max(chunk) > silence_threshold:
-                    stream.write(chunk)
-                    stream_start = True
+        #         elif max(chunk) > silence_threshold:
+        #             stream.write(chunk)
+        #             stream_start = True
 
         # USAGE: Pyttsx3 approach (Weak audio quality)
 
@@ -220,28 +220,28 @@ class Siri:
 
         # gTTS approach (Stronger audio quality with Google TTS engine)
         # DOWNSIDE: Super slow. Also, there is a need to save it as `.mp3` and play it.
-        # tts = gTTS(text=text, lang="en", slow=False)
+        tts = gTTS(text=text, lang="en", slow=False)
 
-        # response_folder_path = Path(
-        #     os.path.abspath(
-        #         os.path.join(self.project_root_folder_path, "data", "ai_response")
-        #     )
-        # )
+        response_folder_path = Path(
+            os.path.abspath(
+                os.path.join(self.project_root_folder_path, "data", "ai_response")
+            )
+        )
 
-        # os.makedirs(response_folder_path, exist_ok=True)
+        os.makedirs(response_folder_path, exist_ok=True)
 
-        # response_audio_file_path = Path(
-        #     os.path.join(response_folder_path, "ai_response_audio.mp3")
-        # )
+        response_audio_file_path = Path(
+            os.path.join(response_folder_path, "ai_response_audio.mp3")
+        )
 
-        # tts.save(response_audio_file_path)
+        tts.save(response_audio_file_path)
 
-        # response_audio = AudioSegment.from_mp3(response_audio_file_path)
-        # play(response_audio)
+        response_audio = AudioSegment.from_mp3(response_audio_file_path)
+        play(response_audio)
 
-        # # After the audio is played, delete the audio file.
-        # if os.path.exists(response_audio_file_path):
-        #     os.remove(response_audio_file_path)
+        # After the audio is played, delete the audio file.
+        if os.path.exists(response_audio_file_path):
+            os.remove(response_audio_file_path)
 
     def select_assistant_action(self, prompt: str) -> str:
         """

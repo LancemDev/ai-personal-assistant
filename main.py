@@ -7,13 +7,13 @@ from pathlib import Path
 # Add the src directory to the module search path
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "src"))
 
-from src import setup, siri, utils
+from src import setup, pro, utils
 
 """
-Main entry point for the AI llama3 siri voice assistant.
+Main entry point for the AI llama3 pro voice assistant.
 
 This script loads the necessary API credentials from environment variables,
-initializes the Siri assistant with the provided keys, and starts listening
+initializes the pro assistant with the provided keys, and starts listening
 for user input. The program will exit if any of the required API keys are
 missing.
 
@@ -44,19 +44,19 @@ if __name__ == "__main__":
         groq_api_key, google_gen_ai_api_key, openai_api_key = all_api_keys
         logger.info("API keys loaded successfully")
 
-        # Initialize Siri instance
-        siri_instance = siri.Siri(
+        # Initialize pro instance
+        pro_instance = pro.Pro(
             log_file_path=chat_log_file_path,
             project_root_folder_path=project_root_folder_path,
             groq_api_key=groq_api_key,
             google_gen_ai_api_key=google_gen_ai_api_key,
             openai_api_key=openai_api_key,
         )
-        logger.info("Siri instance initialized")
+        logger.info("pro instance initialized")
 
         # Start listening
-        siri_instance.listen()
-        logger.info("Siri is now listening")
+        pro_instance.listen()
+        logger.info("pro is now listening")
 
     except Exception as e:
         logger.error(f"An error occurred: {e}", exc_info=True)
