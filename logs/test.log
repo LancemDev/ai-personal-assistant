@@ -245,3 +245,129 @@
 2024-10-21 11:45:33,382 - httpcore.connection - DEBUG - close.complete
 2024-10-21 11:45:33,382 - httpcore.connection - DEBUG - close.started
 2024-10-21 11:45:33,382 - httpcore.connection - DEBUG - close.complete
+2024-10-21 11:55:09,075 - comtypes - DEBUG - CoInitializeEx(None, 2)
+2024-10-21 11:55:09,091 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Lance\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
+2024-10-21 11:55:09,091 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\comtypes\gen'
+2024-10-21 11:55:09,139 - comtypes.client - DEBUG - SAPI.SPVoice -> {96749377-3391-11D2-9EE3-00C04F797396}
+2024-10-21 11:55:09,139 - comtypes.client - DEBUG - CoCreateInstance({96749377-3391-11D2-9EE3-00C04F797396}, clsctx=None, interface=None)
+2024-10-21 11:55:09,139 - comtypes.client - DEBUG - GetBestInterface(<POINTER(IUnknown) ptr=0x1f87131ba20 at 1f8049dadd0>)
+2024-10-21 11:55:09,139 - comtypes.client - DEBUG - Does implement IProvideClassInfo
+2024-10-21 11:55:09,155 - comtypes.client - DEBUG - Default interface is {269316D8-57BD-11D2-9EEE-00C04F797396}
+2024-10-21 11:55:09,155 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x1f87131ba60 at 1f8049db1d0>
+2024-10-21 11:55:09,155 - comtypes.client._generate - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2024-10-21 11:55:09,155 - comtypes.client - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechVoice'>
+2024-10-21 11:55:09,155 - comtypes.client - DEBUG - Final result is <POINTER(ISpeechVoice) ptr=0x1f87131ba60 at 1f8049db150>
+2024-10-21 11:55:09,155 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IProvideClassInfo) ptr=0x1f87131ba80 at 1f8049dad50>
+2024-10-21 11:55:09,155 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeInfo) ptr=0x1f802ef1928 at 1f8049dae50>
+2024-10-21 11:55:09,155 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeInfo) ptr=0x1f802ef1980 at 1f8049daed0>
+2024-10-21 11:55:09,155 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeLib) ptr=0x1f802bd8dd0 at 1f8049db1d0>
+2024-10-21 11:55:09,155 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x1f87131ba20 at 1f8049dadd0>
+2024-10-21 11:55:09,155 - comtypes.client._events - DEBUG - <POINTER(ISpeechVoice) ptr=0x1f87131ba60 at 1f8049db150> using sinkinterface from clsid <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2024-10-21 11:55:09,155 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IProvideClassInfo2) ptr=0x1f87131ba80 at 1f8049dadd0>
+2024-10-21 11:55:09,155 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001F804729730>: _ISpeechVoiceEvents.VoiceChange not implemented
+2024-10-21 11:55:09,155 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001F804729730>: _ISpeechVoiceEvents.Bookmark not implemented
+2024-10-21 11:55:09,155 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001F804729730>: _ISpeechVoiceEvents.Sentence not implemented
+2024-10-21 11:55:09,155 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001F804729730>: _ISpeechVoiceEvents.Phoneme not implemented
+2024-10-21 11:55:09,155 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001F804729730>: _ISpeechVoiceEvents.Viseme not implemented
+2024-10-21 11:55:09,155 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001F804729730>: _ISpeechVoiceEvents.AudioLevel not implemented
+2024-10-21 11:55:09,155 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001F804729730>: _ISpeechVoiceEvents.EnginePrivate not implemented
+2024-10-21 11:55:09,155 - comtypes.client._events - DEBUG - Start advise <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2024-10-21 11:55:09,155 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001F804729730>.QueryInterface({A372ACD1-3BEF-4BBD-8FFB-CB3E2B416AF8}) -> S_OK
+2024-10-21 11:55:09,155 - comtypes._comobject - DEBUG - 1 active COM objects: Added   <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001F804729730>
+2024-10-21 11:55:09,155 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001F804729730>.AddRef() -> 1
+2024-10-21 11:55:09,155 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IConnectionPointContainer) ptr=0x1f87131ba88 at 1f804a405d0>
+2024-10-21 11:55:09,218 - comtypes.client - DEBUG - wrap_outparam(<POINTER(ISpeechObjectToken) ptr=0x1f86d5e5f50 at 1f804a405d0>)
+2024-10-21 11:55:09,218 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x1f86d5e5f50 at 1f804a405d0>
+2024-10-21 11:55:09,218 - comtypes.client - DEBUG - wrap_outparam(<POINTER(ISpeechObjectTokens) ptr=0x1f804d60e50 at 1f804a405d0>)
+2024-10-21 11:55:09,218 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x1f804daf380 at 1f804a406d0>
+2024-10-21 11:55:09,218 - comtypes.client - DEBUG - wrap_outparam(<POINTER(IDispatch) ptr=0x1f804df2e60 at 1f804a408d0>)
+2024-10-21 11:55:09,218 - comtypes.client - DEBUG - GetBestInterface(<POINTER(IDispatch) ptr=0x1f804df2e60 at 1f804a408d0>)
+2024-10-21 11:55:09,218 - comtypes.client - DEBUG - Does NOT implement IProvideClassInfo, trying IProvideClassInfo2
+2024-10-21 11:55:09,218 - comtypes.client - DEBUG - Does NOT implement IProvideClassInfo/IProvideClassInfo2
+2024-10-21 11:55:09,218 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x1f802ef1a30 at 1f804a40ad0>
+2024-10-21 11:55:09,218 - comtypes.client - DEBUG - Default interface is {C74A3ADC-B727-4500-A84A-B526721C8B8C}
+2024-10-21 11:55:09,218 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x1f804df2e60 at 1f804a40bd0>
+2024-10-21 11:55:09,218 - comtypes.client._generate - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2024-10-21 11:55:09,218 - comtypes.client - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechObjectToken'>
+2024-10-21 11:55:09,218 - comtypes.client - DEBUG - Final result is <POINTER(ISpeechObjectToken) ptr=0x1f804df2e60 at 1f804a40ad0>
+2024-10-21 11:55:09,218 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IDispatch) ptr=0x1f804df2e60 at 1f804a40a50>
+2024-10-21 11:55:09,218 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeInfo) ptr=0x1f802ef1a30 at 1f804a40b50>
+2024-10-21 11:55:09,218 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeLib) ptr=0x1f802bd8dd0 at 1f804a40bd0>
+2024-10-21 11:55:09,218 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IDispatch) ptr=0x1f804df2e60 at 1f804a408d0>
+2024-10-21 11:55:09,218 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IEnumVARIANT) ptr=0x1f804daf380 at 1f804a40750>
+2024-10-21 11:55:09,218 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ISpeechObjectTokens) ptr=0x1f804d60e50 at 1f804a405d0>
+2024-10-21 11:55:09,218 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x1f804df2e60 at 1f804a40ad0>
+2024-10-21 11:55:09,218 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-10-21 11:55:09,218 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\Lance\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\certifi\\cacert.pem'
+2024-10-21 11:55:09,454 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-10-21 11:55:09,454 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\Lance\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\certifi\\cacert.pem'
+2024-10-21 11:55:09,832 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-21 11:55:10,415 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/Systran/faster-whisper-base/revision/main HTTP/1.1" 200 1848
+2024-10-21 11:55:11,093 - faster_whisper - INFO - Processing audio with duration 00:02.185
+2024-10-21 11:55:11,756 - faster_whisper - INFO - Detected language 'en' with probability 0.99
+2024-10-21 11:55:11,756 - faster_whisper - DEBUG - Processing segment at 00:00.000
+2024-10-21 11:55:12,102 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/audio/speech', 'headers': {'Accept': 'application/octet-stream', 'X-Stainless-Raw-Response': 'stream'}, 'files': None, 'json_data': {'input': 'Hello world, this is a test of the text to speech function', 'model': 'tts-1', 'voice': 'nova', 'response_format': 'pcm'}}
+2024-10-21 11:55:12,188 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/speech
+2024-10-21 11:55:12,188 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-10-21 11:55:12,309 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F807AE7320>
+2024-10-21 11:55:12,309 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001F804A41050> server_hostname='api.openai.com' timeout=5.0
+2024-10-21 11:55:12,434 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F8079CBA70>
+2024-10-21 11:55:12,437 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-21 11:55:12,437 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-21 11:55:12,437 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-21 11:55:12,437 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-21 11:55:12,437 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-21 11:55:14,671 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 21 Oct 2024 08:55:15 GMT'), (b'Content-Type', b'audio/pcm'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'viva-ai-g59lkf'), (b'openai-processing-ms', b'1190'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-request-id', b'req_513ba56f995d69c47dab810e9fbb50c7'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=yJxjIk.6dxTYtfpRhe3pfxyFH3lHpUjEPJCpbfMT4cU-1729500915-1.0.1.1-DLwnCyaEZeQdPdF_02qo5yI132EEJYhcwpwFsCeaExInWA1PySJkQeLgdJVdk4I9ptJvfKH.zI1yX.eu4ic21g; path=/; expires=Mon, 21-Oct-24 09:25:15 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=ch5Y8MsUmCU1dng8B1QwjCEczKU5N25.rEygG1xRFHc-1729500915186-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d600702ad7f4eb8-JNB'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-10-21 11:55:14,671 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2024-10-21 11:55:14,671 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/speech "200 OK" Headers([('date', 'Mon, 21 Oct 2024 08:55:15 GMT'), ('content-type', 'audio/pcm'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'viva-ai-g59lkf'), ('openai-processing-ms', '1190'), ('openai-version', '2020-10-01'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('x-ratelimit-limit-requests', '500'), ('x-ratelimit-remaining-requests', '499'), ('x-ratelimit-reset-requests', '120ms'), ('x-request-id', 'req_513ba56f995d69c47dab810e9fbb50c7'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=yJxjIk.6dxTYtfpRhe3pfxyFH3lHpUjEPJCpbfMT4cU-1729500915-1.0.1.1-DLwnCyaEZeQdPdF_02qo5yI132EEJYhcwpwFsCeaExInWA1PySJkQeLgdJVdk4I9ptJvfKH.zI1yX.eu4ic21g; path=/; expires=Mon, 21-Oct-24 09:25:15 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=ch5Y8MsUmCU1dng8B1QwjCEczKU5N25.rEygG1xRFHc-1729500915186-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8d600702ad7f4eb8-JNB'), ('alt-svc', 'h3=":443"; ma=86400')])
+2024-10-21 11:55:14,671 - openai._base_client - DEBUG - request_id: req_513ba56f995d69c47dab810e9fbb50c7
+2024-10-21 11:55:14,671 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-21 11:55:18,187 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-21 11:55:18,187 - httpcore.http11 - DEBUG - response_closed.started
+2024-10-21 11:55:18,187 - httpcore.http11 - DEBUG - response_closed.complete
+2024-10-21 11:55:18,218 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'You are a multi-modal AI voice assistant. Your user may have attached a photo (screenshot or webcam capture) for context, which has already been processed into a detailed text prompt. This will be attached to their transcribed voice input. Generate the most relevant and factual response by carefully considering all previously generated text before adding new information. Do not expect or request additional images; use the provided context if available. Please do not include newlines in your response. Keep it all in one paragraph. Ensure your responses are clear, concise, and relevant to the ongoing conversation, avoiding any unnecessary verbosity.'}, {'role': 'user', 'content': 'Tell me a joke.'}], 'model': 'llama-3.1-8b-instant'}}
+2024-10-21 11:55:18,218 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2024-10-21 11:55:18,218 - httpcore.connection - DEBUG - connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-10-21 11:55:18,423 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F807AE7050>
+2024-10-21 11:55:18,423 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001F804A407D0> server_hostname='api.groq.com' timeout=5.0
+2024-10-21 11:55:18,549 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F807AE6CC0>
+2024-10-21 11:55:18,549 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-21 11:55:18,549 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-21 11:55:18,549 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-21 11:55:18,549 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-21 11:55:18,549 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-21 11:55:19,051 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 21 Oct 2024 08:55:19 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'vary', b'Origin'), (b'x-ratelimit-limit-requests', b'14400'), (b'x-ratelimit-limit-tokens', b'20000'), (b'x-ratelimit-remaining-requests', b'14399'), (b'x-ratelimit-remaining-tokens', b'19824'), (b'x-ratelimit-reset-requests', b'6s'), (b'x-ratelimit-reset-tokens', b'528ms'), (b'x-request-id', b'req_01jaq4kdh9e5rv81as0ed7rjg7'), (b'via', b'1.1 google'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=riS5wmtB27r9.GFd_eV_npwr_30IBmKf4vKaCd2qyrw-1729500919-1.0.1.1-OuCrQCVi4k1p6wdeMrpuQe8VLk4uet2llDWbepu_Zb96yqwWzjX0BWxM68fty.mCrpBN8Jn92kmWaLNcJtRY8g; path=/; expires=Mon, 21-Oct-24 09:25:19 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d600728d877738b-JNB'), (b'Content-Encoding', b'gzip')])
+2024-10-21 11:55:19,051 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-21 11:55:19,051 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-21 11:55:19,051 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-21 11:55:19,051 - httpcore.http11 - DEBUG - response_closed.started
+2024-10-21 11:55:19,051 - httpcore.http11 - DEBUG - response_closed.complete
+2024-10-21 11:55:19,051 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Mon, 21 Oct 2024 08:55:19 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '20000', 'x-ratelimit-remaining-requests': '14399', 'x-ratelimit-remaining-tokens': '19824', 'x-ratelimit-reset-requests': '6s', 'x-ratelimit-reset-tokens': '528ms', 'x-request-id': 'req_01jaq4kdh9e5rv81as0ed7rjg7', 'via': '1.1 google', 'alt-svc': 'h3=":443"; ma=86400', 'cf-cache-status': 'DYNAMIC', 'set-cookie': '__cf_bm=riS5wmtB27r9.GFd_eV_npwr_30IBmKf4vKaCd2qyrw-1729500919-1.0.1.1-OuCrQCVi4k1p6wdeMrpuQe8VLk4uet2llDWbepu_Zb96yqwWzjX0BWxM68fty.mCrpBN8Jn92kmWaLNcJtRY8g; path=/; expires=Mon, 21-Oct-24 09:25:19 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'cf-ray': '8d600728d877738b-JNB', 'content-encoding': 'gzip'})
+2024-10-21 11:55:19,051 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an AI model tasked with selecting the most appropriate action for a voice assistant. Based on the user's prompt, choose one of the following actions: ['extract clipboard', 'take screenshot', 'delete screenshot', 'capture webcam', 'generic']. Assume the webcam is a standard laptop webcam facing the user. Provide only the action without explanations or additional text. Respond strictly with the most suitable option from the list."}, {'role': 'user', 'content': 'Tell me a joke.'}], 'model': 'llama-3.1-8b-instant'}}
+2024-10-21 11:55:19,051 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2024-10-21 11:55:19,051 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-21 11:55:19,051 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-21 11:55:19,051 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-21 11:55:19,051 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-21 11:55:19,051 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-21 11:55:19,538 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 21 Oct 2024 08:55:20 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'vary', b'Origin'), (b'x-ratelimit-limit-requests', b'14400'), (b'x-ratelimit-limit-tokens', b'20000'), (b'x-ratelimit-remaining-requests', b'14398'), (b'x-ratelimit-remaining-tokens', b'19840'), (b'x-ratelimit-reset-requests', b'11.488s'), (b'x-ratelimit-reset-tokens', b'479ms'), (b'x-request-id', b'req_01jaq4ke1de5bsbkv7d3475smj'), (b'via', b'1.1 google'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d60072c1cdb738b-JNB'), (b'Content-Encoding', b'gzip')])
+2024-10-21 11:55:19,538 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-21 11:55:19,538 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-21 11:55:19,538 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-21 11:55:19,538 - httpcore.http11 - DEBUG - response_closed.started
+2024-10-21 11:55:19,538 - httpcore.http11 - DEBUG - response_closed.complete
+2024-10-21 11:55:19,538 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Mon, 21 Oct 2024 08:55:20 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '20000', 'x-ratelimit-remaining-requests': '14398', 'x-ratelimit-remaining-tokens': '19840', 'x-ratelimit-reset-requests': '11.488s', 'x-ratelimit-reset-tokens': '479ms', 'x-request-id': 'req_01jaq4ke1de5bsbkv7d3475smj', 'via': '1.1 google', 'alt-svc': 'h3=":443"; ma=86400', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '8d60072c1cdb738b-JNB', 'content-encoding': 'gzip'})
+2024-10-21 11:55:19,554 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-10-21 11:55:19,554 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2024-10-21 11:55:19,554 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 54 4
+2024-10-21 11:55:19,554 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 70 9
+2024-10-21 11:55:19,554 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 91 65445
+2024-10-21 11:55:24,925 - comtypes._post_coinit.unknwn - DEBUG - Calling CoUninitialize()
+2024-10-21 11:55:24,925 - comtypes._post_coinit.unknwn - DEBUG - CoUninitialize() done.
+2024-10-21 11:55:24,957 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001F804729730>.Release() -> 0
+2024-10-21 11:55:24,972 - comtypes._comobject - DEBUG - 0 active COM objects: Removed <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001F804729730>
+2024-10-21 11:55:24,972 - comtypes._comobject - DEBUG - Remaining: []
+2024-10-21 11:55:25,035 - httpcore.connection - DEBUG - close.started
+2024-10-21 11:55:25,035 - httpcore.connection - DEBUG - close.complete
+2024-10-21 11:55:25,035 - httpcore.connection - DEBUG - close.started
+2024-10-21 11:55:25,035 - httpcore.connection - DEBUG - close.complete

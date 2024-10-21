@@ -1,5 +1,6 @@
 import os
 import sys
+import logging
 from src.logger_config import setup_logger
 from pathlib import Path
 
@@ -9,7 +10,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "src
 from src import setup, siri, utils
 
 """
-Main entry point for the AI llama3 siri voice assitant.
+Main entry point for the AI llama3 siri voice assistant.
 
 This script loads the necessary API credentials from environment variables,
 initializes the Siri assistant with the provided keys, and starts listening
@@ -21,22 +22,41 @@ To run the application, execute this script in an environment where the
 """
 
 if __name__ == "__main__":
-    # Determine the current directory of the script
-    project_root_folder_path = Path(os.path.dirname(os.path.abspath(__file__)))
+    try:
+        # Determine the current directory of the script
+        project_root_folder_path = Path(os.path.dirname(os.path.abspath(__file__)))
+        log_file_path = project_root_folder_path / "logs" / "main.log"
+        
+        # Setup logger
+        setup_logger(log_file_path)
+        logger = logging.getLogger(__name__)
+        
+        logger.info("Starting main.py")
 
-    chat_log_file_path = utils.get_log_file_for_today(
-        project_root_folder_path=project_root_folder_path
-    )
+        # Get log file for today
+        chat_log_file_path = utils.get_log_file_for_today(
+            project_root_folder_path=project_root_folder_path
+        )
+        logger.info(f"Chat log file path: {chat_log_file_path}")
 
-    all_api_keys = setup.get_credentials()
-    groq_api_key, google_gen_ai_api_key, openai_api_key = all_api_keys
+        # Get API keys
+        all_api_keys = setup.get_credentials()
+        groq_api_key, google_gen_ai_api_key, openai_api_key = all_api_keys
+        logger.info("API keys loaded successfully")
 
-    siri = siri.Siri(
-        log_file_path=chat_log_file_path,
-        project_root_folder_path=project_root_folder_path,
-        groq_api_key=groq_api_key,
-        google_gen_ai_api_key=google_gen_ai_api_key,
-        openai_api_key=openai_api_key,
-    )
+        # Initialize Siri instance
+        siri_instance = siri.Siri(
+            log_file_path=chat_log_file_path,
+            project_root_folder_path=project_root_folder_path,
+            groq_api_key=groq_api_key,
+            google_gen_ai_api_key=google_gen_ai_api_key,
+            openai_api_key=openai_api_key,
+        )
+        logger.info("Siri instance initialized")
 
-    siri.listen()
+        # Start listening
+        siri_instance.listen()
+        logger.info("Siri is now listening")
+
+    except Exception as e:
+        logger.error(f"An error occurred: {e}", exc_info=True)

@@ -105,7 +105,6 @@ class Siri:
         # Initialize speech recognition components
         self.speech_recognizer = sr.Recognizer()
         self.mic_audio_source = sr.Microphone()
-        self.wake_word = "siri"
 
     def transcribe_audio_to_text(self, audio_file_path: Path) -> str:
         """
@@ -123,30 +122,21 @@ class Siri:
         )
         return "".join(segment.text for segment in segments)
 
-    def extract_prompt(self, transcribed_text: str) -> str | None:
+    def extract_prompt(self, transcribed_text: str) -> str:
         """
-        Extracts the user's prompt from the transcribed text after the wake word.
+        Extracts the user's prompt from the transcribed text.
 
         Args:
             transcribed_text (str): The transcribed text from audio input.
 
         Returns:
-            str | None: The extracted prompt if found, otherwise None.
+            str: The extracted prompt.
         """
-
-        pattern = rf"\b{re.escape(self.wake_word)}[\s,.?!]*([A-Za-z0-9].*)"
-        regex_match = re.search(
-            pattern=pattern, string=transcribed_text, flags=re.IGNORECASE
-        )
-
-        if regex_match is None:
-            return None
-
-        return regex_match.group(1).strip()
+        return transcribed_text.strip()
 
     def listen(self) -> None:
         """
-        Starts listening for the wake word and processes audio input in the background.
+        Starts listening for audio input and processes it in the background.
         """
 
         with self.mic_audio_source as mic:
