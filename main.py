@@ -1,5 +1,6 @@
 import os
 import sys
+from src.logger_config import setup_logger
 from pathlib import Path
 
 # Add the src directory to the module search path

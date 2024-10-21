@@ -16,6 +16,12 @@ def get_log_file_for_today(project_root_folder_path: Path) -> Path:
     directories are created. If the log file for the current day does not exist,
     it creates an empty log file.
 
+    Args:
+        project_root_folder_path (Path): The root folder of the project, where the 'data'
+        directory resides.
+
+    Returns:
+        Path: The absolute path to the log file for today's date.
     """
 
     today = datetime.today()
@@ -73,6 +79,27 @@ def log_chat_message(
         log_file.write("\n")
 
 
+def get_clipboard_text() -> str:
+    """
+    Retrieves the current text content from the system clipboard.
+
+    This function uses the `pyperclip` module to access the clipboard. If the clipboard
+    content is a valid string, it returns the content. If the content is not a string,
+    it returns an empty string.
+
+    Returns:
+        str: The text content from the clipboard, or an empty string if the content is
+        not a string or the clipboard is empty.
+    """
+
+    clipboard_content = pyperclip.paste()
+
+    if isinstance(clipboard_content, str):
+        return clipboard_content
+
+    return ""
+
+
 def exit_program(status_code: int = 0, message: str = "") -> NoReturn:
     """
     Exit the program with an optional error message.
@@ -86,32 +113,6 @@ def exit_program(status_code: int = 0, message: str = "") -> NoReturn:
         print(f"ERROR: {message}\n")
     sys.exit(status_code)
 
-def get_path_to_folder(folder_type: Literal["webcam", "screenshot"]) -> Path:
-    """
-    Get the path to the specified folder type (webcam or screenshot).
-
-    Args:
-        folder_type (Literal["webcam", "screenshot"]): The type of folder to retrieve the path for.
-
-    Returns:
-        Path: The path to the specified folder.
-
-    Raises:
-        ValueError: If the folder_type is not valid.
-    """
-
-    base_path = Path(os.path.join(Path.home(), "Pictures", "llama3.1"))
-    folder_map = {
-        "screenshot": Path(os.path.join(base_path, "Screenshots")),
-        "webcam": Path(os.path.join(base_path, "Webcam")),
-    }
-
-    if folder_type not in folder_map:
-        raise ValueError(
-            f"ERROR: Invalid folder_type: {folder_type}. Expected 'webcam' or 'screenshot'."
-        )
-
-    return folder_map[folder_type]
 
 def capture_screenshot() -> Path:
     """
@@ -166,22 +167,29 @@ def remove_last_screenshot() -> None:
     os.remove(os.path.join(folder_path, most_recent_file))
 
 
-def get_clipboard_text() -> str:
+def get_path_to_folder(folder_type: Literal["webcam", "screenshot"]) -> Path:
     """
-    Retrieves the current text content from the system clipboard.
+    Get the path to the specified folder type (webcam or screenshot).
 
-    This function uses the `pyperclip` module to access the clipboard. If the clipboard
-    content is a valid string, it returns the content. If the content is not a string,
-    it returns an empty string.
+    Args:
+        folder_type (Literal["webcam", "screenshot"]): The type of folder to retrieve the path for.
 
     Returns:
-        str: The text content from the clipboard, or an empty string if the content is
-        not a string or the clipboard is empty.
+        Path: The path to the specified folder.
+
+    Raises:
+        ValueError: If the folder_type is not valid.
     """
 
-    clipboard_content = pyperclip.paste()
+    base_path = Path(os.path.join(Path.home(), "Pictures", "llama3.1"))
+    folder_map = {
+        "screenshot": Path(os.path.join(base_path, "Screenshots")),
+        "webcam": Path(os.path.join(base_path, "Webcam")),
+    }
 
-    if isinstance(clipboard_content, str):
-        return clipboard_content
+    if folder_type not in folder_map:
+        raise ValueError(
+            f"ERROR: Invalid folder_type: {folder_type}. Expected 'webcam' or 'screenshot'."
+        )
 
-    return ""
+    return folder_map[folder_type]

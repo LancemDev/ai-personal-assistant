@@ -15,6 +15,7 @@ from openai import OpenAI
 from PIL import Image
 from pydub import AudioSegment
 from pydub.playback import play
+import pyaudio
 
 import utils
 import webcam
@@ -187,43 +188,21 @@ class Siri:
 
         return ai_response or "Sorry, I'm not sure how to respond to that."
 
-    # Pyttsx3 Approach (Weaker Audio Quality)
-    # def text_to_speech(self, text: str) -> None:
-        """
-        Converts text to speech using Pyttsx3's text-to-speech API.
-
-        Args:
-            text (str): The text to convert to speech.
-        """
-
-        # self.pyttsx3_engine.setProperty("volume", 1.0)
-        # self.pyttsx3_engine.setProperty("rate", 125)
-
-        # voices = self.pyttsx3_engine.getProperty("voices")
-
-        # # Set voice to Female.
-        # self.pyttsx3_engine.setProperty("voice", voices[0].id)
-
-        # self.pyttsx3_engine.say(text)
-        # self.pyttsx3_engine.runAndWait()
-
-        # self.pyttsx3_engine.stop()
-
-
-    # OpenAI Approach (Best Quality Audio with multiple voice available).
     def text_to_speech(self, text: str) -> None:
         """
-        Converts text to speech using OpenAI's text-to-speech API.
+        Converts text to speech using OpenAI/pyttsx3/gTTS's text-to-speech API.
 
         Args:
             text (str): The text to convert to speech.
         """
+
+        # USAGE: OpenAI approach (Use this if you have credits in your OpenAI account)
 
         stream = pyaudio.PyAudio().open(
             format=pyaudio.paInt16, channels=1, rate=24000, output=True
         )
         stream_start = False
-
+        
         with self.openai_client.audio.speech.with_streaming_response.create(
             model="tts-1", voice="nova", response_format="pcm", input=text
         ) as openai_response:
@@ -231,20 +210,26 @@ class Siri:
             for chunk in openai_response.iter_bytes(chunk_size=1024):
                 if stream_start:
                     stream.write(chunk)
-
+        
                 elif max(chunk) > silence_threshold:
                     stream.write(chunk)
                     stream_start = True
 
+        # USAGE: Pyttsx3 approach (Weak audio quality)
 
-    # def text_to_speech(self, text: str) -> None:
-        """
-        Converts text to speech using Google's text-to-speech API.
+        # self.pyttsx3_engine.setProperty("volume", 1.0)
+        # self.pyttsx3_engine.setProperty("rate", 125)
+        #
+        # voices = self.pyttsx3_engine.getProperty("voices")
+        # self.pyttsx3_engine.setProperty("voice", voices[0].id)
+        #
+        # self.pyttsx3_engine.say(text)
+        # self.pyttsx3_engine.runAndWait()
+        #
+        # self.pyttsx3_engine.stop()
 
-        Args:
-            text (str): The text to convert to speech.
-        """
-
+        # gTTS approach (Stronger audio quality with Google TTS engine)
+        # DOWNSIDE: Super slow. Also, there is a need to save it as `.mp3` and play it.
         # tts = gTTS(text=text, lang="en", slow=False)
 
         # response_folder_path = Path(
@@ -264,32 +249,9 @@ class Siri:
         # response_audio = AudioSegment.from_mp3(response_audio_file_path)
         # play(response_audio)
 
-        # After the audio is played, delete the audio file.
+        # # After the audio is played, delete the audio file.
         # if os.path.exists(response_audio_file_path):
         #     os.remove(response_audio_file_path)
-
-    def analyze_image_prompt(self, prompt: str, image_path: Path) -> str:
-        """
-        Analyzes an image based on the user prompt to extract semantic information.
-
-        Args:
-            prompt (str): The user's prompt related to the image.
-            image_path (Path): The path to the image file.
-
-        Returns:
-            str: The analysis result from the image based on the prompt.
-        """
-
-        image = Image.open(image_path)
-        prompt = (
-            "You are an image analysis AI tasked with extracting semantic meaning from images to assist another AI in "
-            "generating a user response. Your role is to analyze the image based on the user's prompt and provide all relevant, "
-            "objective data without directly responding to the user. Focus solely on interpreting the image in the context of "
-            f"the user’s request and relay that information for further processing. \nUSER_PROMPT: {prompt}"
-        )
-        genai_response = self.genai_model.generate_content([prompt, image])
-        return genai_response.text
-
 
     def select_assistant_action(self, prompt: str) -> str:
         """
@@ -321,6 +283,27 @@ class Siri:
 
         return ai_response or "generic"
 
+    def analyze_image_prompt(self, prompt: str, image_path: Path) -> str:
+        """
+        Analyzes an image based on the user prompt to extract semantic information.
+
+        Args:
+            prompt (str): The user's prompt related to the image.
+            image_path (Path): The path to the image file.
+
+        Returns:
+            str: The analysis result from the image based on the prompt.
+        """
+
+        image = Image.open(image_path)
+        prompt = (
+            "You are an image analysis AI tasked with extracting semantic meaning from images to assist another AI in "
+            "generating a user response. Your role is to analyze the image based on the user's prompt and provide all relevant, "
+            "objective data without directly responding to the user. Focus solely on interpreting the image in the context of "
+            f"the user’s request and relay that information for further processing. \nUSER_PROMPT: {prompt}"
+        )
+        genai_response = self.genai_model.generate_content([prompt, image])
+        return genai_response.text
 
     def handle_audio_processing(self, recognizer: sr.Recognizer, audio: sr.AudioData):
         """
@@ -402,4 +385,3 @@ class Siri:
         # Remove the user prompt audio after the response is generated.
         if os.path.exists(audio_prompt_file_path):
             os.remove(audio_prompt_file_path)
-
