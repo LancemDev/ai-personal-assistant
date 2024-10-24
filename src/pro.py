@@ -209,13 +209,13 @@ class Pro:
 
         # self.pyttsx3_engine.setProperty("volume", 1.0)
         # self.pyttsx3_engine.setProperty("rate", 125)
-        #
+        
         # voices = self.pyttsx3_engine.getProperty("voices")
         # self.pyttsx3_engine.setProperty("voice", voices[0].id)
-        #
+        
         # self.pyttsx3_engine.say(text)
         # self.pyttsx3_engine.runAndWait()
-        #
+        
         # self.pyttsx3_engine.stop()
 
         # gTTS approach (Stronger audio quality with Google TTS engine)
