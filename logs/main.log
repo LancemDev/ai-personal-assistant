@@ -5129,3 +5129,668 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2024-10-22 15:50:13,001 - pydub.converter - DEBUG - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', 'C:\\Users\\Lance\\Desktop\\CODEWRLD\\ai-personal-assistant\\data\\ai_response\\ai_response_audio.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
 2024-10-22 15:53:19,501 - comtypes._post_coinit.unknwn - DEBUG - Calling CoUninitialize()
 2024-10-22 15:53:19,506 - comtypes._post_coinit.unknwn - DEBUG - CoUninitialize() done.
+2024-10-25 06:52:57,955 - __main__ - INFO - Starting main.py
+2024-10-25 06:52:57,955 - __main__ - INFO - Chat log file path: C:\Users\Lance\Desktop\CODEWRLD\ai-personal-assistant\data\chat_history\2024\10\25.log
+2024-10-25 06:52:57,955 - __main__ - INFO - API keys loaded successfully
+2024-10-25 06:52:58,039 - comtypes - DEBUG - CoInitializeEx(None, 2)
+2024-10-25 06:52:58,235 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Lance\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
+2024-10-25 06:52:58,235 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\comtypes\gen'
+2024-10-25 06:52:58,389 - comtypes.client - DEBUG - SAPI.SPVoice -> {96749377-3391-11D2-9EE3-00C04F797396}
+2024-10-25 06:52:58,389 - comtypes.client - DEBUG - CoCreateInstance({96749377-3391-11D2-9EE3-00C04F797396}, clsctx=None, interface=None)
+2024-10-25 06:52:58,404 - comtypes.client - DEBUG - GetBestInterface(<POINTER(IUnknown) ptr=0x29a8bb1b730 at 29a9f6b9e50>)
+2024-10-25 06:52:58,404 - comtypes.client - DEBUG - Does implement IProvideClassInfo
+2024-10-25 06:52:58,418 - comtypes.client - DEBUG - Default interface is {269316D8-57BD-11D2-9EEE-00C04F797396}
+2024-10-25 06:52:58,418 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x29a8bb1b770 at 29a9f6ba250>
+2024-10-25 06:52:58,419 - comtypes.client._generate - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2024-10-25 06:52:58,419 - comtypes.client - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechVoice'>
+2024-10-25 06:52:58,420 - comtypes.client - DEBUG - Final result is <POINTER(ISpeechVoice) ptr=0x29a8bb1b770 at 29a9f6ba1d0>
+2024-10-25 06:52:58,420 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IProvideClassInfo) ptr=0x29a8bb1b790 at 29a9f6b9dd0>
+2024-10-25 06:52:58,420 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeInfo) ptr=0x29a9dc17048 at 29a9f6b9ed0>
+2024-10-25 06:52:58,421 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeInfo) ptr=0x29a9dc170a0 at 29a9f6b9f50>
+2024-10-25 06:52:58,421 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeLib) ptr=0x29a9e4a9dd0 at 29a9f6ba250>
+2024-10-25 06:52:58,421 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x29a8bb1b730 at 29a9f6b9e50>
+2024-10-25 06:52:58,422 - comtypes.client._events - DEBUG - <POINTER(ISpeechVoice) ptr=0x29a8bb1b770 at 29a9f6ba1d0> using sinkinterface from clsid <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2024-10-25 06:52:58,423 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IProvideClassInfo2) ptr=0x29a8bb1b790 at 29a9f6b9e50>
+2024-10-25 06:52:58,424 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000029A9F421B20>: _ISpeechVoiceEvents.VoiceChange not implemented
+2024-10-25 06:52:58,425 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000029A9F421B20>: _ISpeechVoiceEvents.Bookmark not implemented
+2024-10-25 06:52:58,425 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000029A9F421B20>: _ISpeechVoiceEvents.Sentence not implemented
+2024-10-25 06:52:58,426 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000029A9F421B20>: _ISpeechVoiceEvents.Phoneme not implemented
+2024-10-25 06:52:58,426 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000029A9F421B20>: _ISpeechVoiceEvents.Viseme not implemented
+2024-10-25 06:52:58,426 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000029A9F421B20>: _ISpeechVoiceEvents.AudioLevel not implemented
+2024-10-25 06:52:58,426 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000029A9F421B20>: _ISpeechVoiceEvents.EnginePrivate not implemented
+2024-10-25 06:52:58,426 - comtypes.client._events - DEBUG - Start advise <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2024-10-25 06:52:58,426 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000029A9F421B20>.QueryInterface({A372ACD1-3BEF-4BBD-8FFB-CB3E2B416AF8}) -> S_OK
+2024-10-25 06:52:58,426 - comtypes._comobject - DEBUG - 1 active COM objects: Added   <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000029A9F421B20>
+2024-10-25 06:52:58,426 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000029A9F421B20>.AddRef() -> 1
+2024-10-25 06:52:58,426 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IConnectionPointContainer) ptr=0x29a8bb1b798 at 29a9f6bb5d0>
+2024-10-25 06:52:58,578 - comtypes.client - DEBUG - wrap_outparam(<POINTER(ISpeechObjectToken) ptr=0x29a8bbf25e0 at 29a9f6bb5d0>)
+2024-10-25 06:52:58,578 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x29a8bbf25e0 at 29a9f6bb5d0>
+2024-10-25 06:52:58,579 - comtypes.client - DEBUG - wrap_outparam(<POINTER(ISpeechObjectTokens) ptr=0x29a9e50cc50 at 29a9f6bb5d0>)
+2024-10-25 06:52:58,579 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x29a9fcb4290 at 29a9f6bb6d0>
+2024-10-25 06:52:58,579 - comtypes.client - DEBUG - wrap_outparam(<POINTER(IDispatch) ptr=0x29a9fc661c0 at 29a9f6bb8d0>)
+2024-10-25 06:52:58,579 - comtypes.client - DEBUG - GetBestInterface(<POINTER(IDispatch) ptr=0x29a9fc661c0 at 29a9f6bb8d0>)
+2024-10-25 06:52:58,580 - comtypes.client - DEBUG - Does NOT implement IProvideClassInfo, trying IProvideClassInfo2
+2024-10-25 06:52:58,580 - comtypes.client - DEBUG - Does NOT implement IProvideClassInfo/IProvideClassInfo2
+2024-10-25 06:52:58,582 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x29a9dc17150 at 29a9f6bbad0>
+2024-10-25 06:52:58,582 - comtypes.client - DEBUG - Default interface is {C74A3ADC-B727-4500-A84A-B526721C8B8C}
+2024-10-25 06:52:58,582 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x29a9fc661c0 at 29a9f6bbbd0>
+2024-10-25 06:52:58,583 - comtypes.client._generate - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2024-10-25 06:52:58,583 - comtypes.client - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechObjectToken'>
+2024-10-25 06:52:58,583 - comtypes.client - DEBUG - Final result is <POINTER(ISpeechObjectToken) ptr=0x29a9fc661c0 at 29a9f6bbad0>
+2024-10-25 06:52:58,583 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IDispatch) ptr=0x29a9fc661c0 at 29a9f6bba50>
+2024-10-25 06:52:58,583 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeInfo) ptr=0x29a9dc17150 at 29a9f6bbb50>
+2024-10-25 06:52:58,583 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeLib) ptr=0x29a9e4a9dd0 at 29a9f6bbbd0>
+2024-10-25 06:52:58,583 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IDispatch) ptr=0x29a9fc661c0 at 29a9f6bb8d0>
+2024-10-25 06:52:58,583 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IEnumVARIANT) ptr=0x29a9fcb4290 at 29a9f6bb750>
+2024-10-25 06:52:58,583 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ISpeechObjectTokens) ptr=0x29a9e50cc50 at 29a9f6bb5d0>
+2024-10-25 06:52:58,584 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x29a9fc661c0 at 29a9f6bbad0>
+2024-10-25 06:52:58,584 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-10-25 06:52:58,595 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\Lance\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\certifi\\cacert.pem'
+2024-10-25 06:52:58,820 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-10-25 06:52:58,820 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\Lance\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\certifi\\cacert.pem'
+2024-10-25 06:52:59,887 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-25 06:53:01,028 - __main__ - INFO - pro instance initialized
+2024-10-25 06:54:38,960 - comtypes._post_coinit.unknwn - DEBUG - Calling CoUninitialize()
+2024-10-25 06:54:38,960 - comtypes._post_coinit.unknwn - DEBUG - CoUninitialize() done.
+2024-10-25 06:55:35,068 - __main__ - INFO - Starting main.py
+2024-10-25 06:55:35,068 - __main__ - INFO - Chat log file path: C:\Users\Lance\Desktop\CODEWRLD\ai-personal-assistant\data\chat_history\2024\10\25.log
+2024-10-25 06:55:35,068 - __main__ - INFO - API keys loaded successfully
+2024-10-25 06:55:35,068 - comtypes - DEBUG - CoInitializeEx(None, 2)
+2024-10-25 06:55:35,103 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Lance\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
+2024-10-25 06:55:35,103 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\comtypes\gen'
+2024-10-25 06:55:35,154 - comtypes.client - DEBUG - SAPI.SPVoice -> {96749377-3391-11D2-9EE3-00C04F797396}
+2024-10-25 06:55:35,154 - comtypes.client - DEBUG - CoCreateInstance({96749377-3391-11D2-9EE3-00C04F797396}, clsctx=None, interface=None)
+2024-10-25 06:55:35,157 - comtypes.client - DEBUG - GetBestInterface(<POINTER(IUnknown) ptr=0x209e951b730 at 209fd299dd0>)
+2024-10-25 06:55:35,157 - comtypes.client - DEBUG - Does implement IProvideClassInfo
+2024-10-25 06:55:35,167 - comtypes.client - DEBUG - Default interface is {269316D8-57BD-11D2-9EEE-00C04F797396}
+2024-10-25 06:55:35,168 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x209e951b770 at 209fd29a1d0>
+2024-10-25 06:55:35,168 - comtypes.client._generate - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2024-10-25 06:55:35,169 - comtypes.client - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechVoice'>
+2024-10-25 06:55:35,169 - comtypes.client - DEBUG - Final result is <POINTER(ISpeechVoice) ptr=0x209e951b770 at 209fd29a150>
+2024-10-25 06:55:35,169 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IProvideClassInfo) ptr=0x209e951b790 at 209fd299d50>
+2024-10-25 06:55:35,170 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeInfo) ptr=0x209fc0f0638 at 209fd299e50>
+2024-10-25 06:55:35,170 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeInfo) ptr=0x209fc0f0690 at 209fd299ed0>
+2024-10-25 06:55:35,170 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeLib) ptr=0x209fa8e3350 at 209fd29a1d0>
+2024-10-25 06:55:35,170 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x209e951b730 at 209fd299dd0>
+2024-10-25 06:55:35,171 - comtypes.client._events - DEBUG - <POINTER(ISpeechVoice) ptr=0x209e951b770 at 209fd29a150> using sinkinterface from clsid <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2024-10-25 06:55:35,171 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IProvideClassInfo2) ptr=0x209e951b790 at 209fd299dd0>
+2024-10-25 06:55:35,174 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000209FCFC4DD0>: _ISpeechVoiceEvents.VoiceChange not implemented
+2024-10-25 06:55:35,174 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000209FCFC4DD0>: _ISpeechVoiceEvents.Bookmark not implemented
+2024-10-25 06:55:35,175 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000209FCFC4DD0>: _ISpeechVoiceEvents.Sentence not implemented
+2024-10-25 06:55:35,175 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000209FCFC4DD0>: _ISpeechVoiceEvents.Phoneme not implemented
+2024-10-25 06:55:35,176 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000209FCFC4DD0>: _ISpeechVoiceEvents.Viseme not implemented
+2024-10-25 06:55:35,176 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000209FCFC4DD0>: _ISpeechVoiceEvents.AudioLevel not implemented
+2024-10-25 06:55:35,176 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000209FCFC4DD0>: _ISpeechVoiceEvents.EnginePrivate not implemented
+2024-10-25 06:55:35,176 - comtypes.client._events - DEBUG - Start advise <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2024-10-25 06:55:35,176 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000209FCFC4DD0>.QueryInterface({A372ACD1-3BEF-4BBD-8FFB-CB3E2B416AF8}) -> S_OK
+2024-10-25 06:55:35,176 - comtypes._comobject - DEBUG - 1 active COM objects: Added   <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000209FCFC4DD0>
+2024-10-25 06:55:35,176 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000209FCFC4DD0>.AddRef() -> 1
+2024-10-25 06:55:35,176 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IConnectionPointContainer) ptr=0x209e951b798 at 209fd29b550>
+2024-10-25 06:55:35,236 - comtypes.client - DEBUG - wrap_outparam(<POINTER(ISpeechObjectToken) ptr=0x209e95f2ca0 at 209fd29b550>)
+2024-10-25 06:55:35,236 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x209e95f2ca0 at 209fd29b550>
+2024-10-25 06:55:35,236 - comtypes.client - DEBUG - wrap_outparam(<POINTER(ISpeechObjectTokens) ptr=0x209fc10cf50 at 209fd29b550>)
+2024-10-25 06:55:35,236 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x209ff0b46a0 at 209fd29b650>
+2024-10-25 06:55:35,236 - comtypes.client - DEBUG - wrap_outparam(<POINTER(IDispatch) ptr=0x209ff065b00 at 209fd29b850>)
+2024-10-25 06:55:35,236 - comtypes.client - DEBUG - GetBestInterface(<POINTER(IDispatch) ptr=0x209ff065b00 at 209fd29b850>)
+2024-10-25 06:55:35,236 - comtypes.client - DEBUG - Does NOT implement IProvideClassInfo, trying IProvideClassInfo2
+2024-10-25 06:55:35,236 - comtypes.client - DEBUG - Does NOT implement IProvideClassInfo/IProvideClassInfo2
+2024-10-25 06:55:35,236 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x209fc0f0740 at 209fd29ba50>
+2024-10-25 06:55:35,236 - comtypes.client - DEBUG - Default interface is {C74A3ADC-B727-4500-A84A-B526721C8B8C}
+2024-10-25 06:55:35,236 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x209ff065b00 at 209fd29bb50>
+2024-10-25 06:55:35,236 - comtypes.client._generate - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2024-10-25 06:55:35,236 - comtypes.client - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechObjectToken'>
+2024-10-25 06:55:35,243 - comtypes.client - DEBUG - Final result is <POINTER(ISpeechObjectToken) ptr=0x209ff065b00 at 209fd29ba50>
+2024-10-25 06:55:35,244 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IDispatch) ptr=0x209ff065b00 at 209fd29b9d0>
+2024-10-25 06:55:35,244 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeInfo) ptr=0x209fc0f0740 at 209fd29bad0>
+2024-10-25 06:55:35,244 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeLib) ptr=0x209fa8e3350 at 209fd29bb50>
+2024-10-25 06:55:35,244 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IDispatch) ptr=0x209ff065b00 at 209fd29b850>
+2024-10-25 06:55:35,244 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IEnumVARIANT) ptr=0x209ff0b46a0 at 209fd29b6d0>
+2024-10-25 06:55:35,245 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ISpeechObjectTokens) ptr=0x209fc10cf50 at 209fd29b550>
+2024-10-25 06:55:35,245 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x209ff065b00 at 209fd29ba50>
+2024-10-25 06:55:35,245 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-10-25 06:55:35,247 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\Lance\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\certifi\\cacert.pem'
+2024-10-25 06:55:35,447 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-10-25 06:55:35,447 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\Lance\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\certifi\\cacert.pem'
+2024-10-25 06:55:35,789 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-25 06:55:36,286 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/Systran/faster-whisper-base/revision/main HTTP/1.1" 200 1848
+2024-10-25 06:55:36,820 - __main__ - INFO - pro instance initialized
+2024-10-25 06:55:51,559 - faster_whisper - INFO - Processing audio with duration 00:11.610
+2024-10-25 06:55:52,232 - faster_whisper - INFO - Detected language 'en' with probability 0.40
+2024-10-25 06:55:52,233 - faster_whisper - DEBUG - Processing segment at 00:00.000
+2024-10-25 06:55:52,578 - faster_whisper - DEBUG - Log probability threshold is not met with temperature 0.0 (-1.043692 < -1.000000)
+2024-10-25 06:55:54,415 - faster_whisper - DEBUG - Compression ratio threshold is not met with temperature 0.2 (27.800000 > 2.400000)
+2024-10-25 06:55:54,945 - faster_whisper - DEBUG - Log probability threshold is not met with temperature 0.4 (-1.161112 < -1.000000)
+2024-10-25 06:55:55,719 - faster_whisper - DEBUG - Log probability threshold is not met with temperature 0.6 (-1.555931 < -1.000000)
+2024-10-25 06:55:56,287 - faster_whisper - DEBUG - Log probability threshold is not met with temperature 0.8 (-1.446153 < -1.000000)
+2024-10-25 06:55:56,901 - faster_whisper - DEBUG - Log probability threshold is not met with temperature 1.0 (-3.263313 < -1.000000)
+2024-10-25 06:55:56,901 - faster_whisper - DEBUG - Reset prompt. prompt_reset_on_temperature threshold is met 1.000000 > 0.500000
+2024-10-25 06:55:56,901 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an AI model tasked with selecting the most appropriate action for a voice assistant. Based on the user's prompt, choose one of the following actions: ['extract clipboard', 'take screenshot', 'delete screenshot', 'capture webcam', 'generic']. Assume the webcam is a standard laptop webcam facing the user. Provide only the action without explanations or additional text. Respond strictly with the most suitable option from the list."}, {'role': 'user', 'content': 'very destructive in the middle of the floor, it is seen through we will explain later on the floor activities that are evidenced by first promises of endless hallowed.'}], 'model': 'llama-3.1-8b-instant'}}
+2024-10-25 06:55:56,985 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2024-10-25 06:55:56,985 - httpcore.connection - DEBUG - connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-10-25 06:55:57,151 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020A016BC4D0>
+2024-10-25 06:55:57,152 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000209FD29B750> server_hostname='api.groq.com' timeout=5.0
+2024-10-25 06:55:57,173 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020A016BC200>
+2024-10-25 06:55:57,174 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-25 06:55:57,175 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-25 06:55:57,175 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-25 06:55:57,176 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-25 06:55:57,176 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-25 06:55:57,869 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 25 Oct 2024 03:56:07 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'vary', b'Origin'), (b'x-ratelimit-limit-requests', b'14400'), (b'x-ratelimit-limit-tokens', b'20000'), (b'x-ratelimit-remaining-requests', b'14399'), (b'x-ratelimit-remaining-tokens', b'19840'), (b'x-ratelimit-reset-requests', b'6s'), (b'x-ratelimit-reset-tokens', b'480ms'), (b'x-request-id', b'req_01jb0x2efxewf83pne8hcsxh1k'), (b'via', b'1.1 google'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=bsDnlvTzgoBZ6hQioANR1.sg3Lo29r.qdchad856FnQ-1729828567-1.0.1.1-m3A4m.8pW0aasYVhkOBPdkTyOMAUcCLW_m0yjHwgYU0OFfR_.nkytpRDgnER6wUsk0DU_8xwspnRG0R7_jf7bA; path=/; expires=Fri, 25-Oct-24 04:26:07 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d7f466088d8b196-NBO'), (b'Content-Encoding', b'gzip')])
+2024-10-25 06:55:57,870 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 06:55:57,870 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-25 06:55:57,870 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-25 06:55:57,870 - httpcore.http11 - DEBUG - response_closed.started
+2024-10-25 06:55:57,870 - httpcore.http11 - DEBUG - response_closed.complete
+2024-10-25 06:55:57,870 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Fri, 25 Oct 2024 03:56:07 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '20000', 'x-ratelimit-remaining-requests': '14399', 'x-ratelimit-remaining-tokens': '19840', 'x-ratelimit-reset-requests': '6s', 'x-ratelimit-reset-tokens': '480ms', 'x-request-id': 'req_01jb0x2efxewf83pne8hcsxh1k', 'via': '1.1 google', 'alt-svc': 'h3=":443"; ma=86400', 'cf-cache-status': 'DYNAMIC', 'set-cookie': '__cf_bm=bsDnlvTzgoBZ6hQioANR1.sg3Lo29r.qdchad856FnQ-1729828567-1.0.1.1-m3A4m.8pW0aasYVhkOBPdkTyOMAUcCLW_m0yjHwgYU0OFfR_.nkytpRDgnER6wUsk0DU_8xwspnRG0R7_jf7bA; path=/; expires=Fri, 25-Oct-24 04:26:07 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'cf-ray': '8d7f466088d8b196-NBO', 'content-encoding': 'gzip'})
+2024-10-25 06:55:57,881 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'You are a multi-modal AI voice assistant. Your user may have attached a photo (screenshot or webcam capture) for context, which has already been processed into a detailed text prompt. This will be attached to their transcribed voice input. Generate the most relevant and factual response by carefully considering all previously generated text before adding new information. Do not expect or request additional images; use the provided context if available. Please do not include newlines in your response. Keep it all in one paragraph. Ensure your responses are clear, concise, and relevant to the ongoing conversation, avoiding any unnecessary verbosity.'}, {'role': 'user', 'content': 'very destructive in the middle of the floor, it is seen through we will explain later on the floor activities that are evidenced by first promises of endless hallowed.'}], 'model': 'llama-3.1-8b-instant'}}
+2024-10-25 06:55:57,882 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2024-10-25 06:55:57,883 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-25 06:55:57,884 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-25 06:55:57,884 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-25 06:55:57,885 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-25 06:55:57,886 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-25 06:55:58,383 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 25 Oct 2024 03:56:08 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'vary', b'Origin'), (b'x-ratelimit-limit-requests', b'14400'), (b'x-ratelimit-limit-tokens', b'20000'), (b'x-ratelimit-remaining-requests', b'14398'), (b'x-ratelimit-remaining-tokens', b'19758'), (b'x-ratelimit-reset-requests', b'11.564999999s'), (b'x-ratelimit-reset-tokens', b'725ms'), (b'x-request-id', b'req_01jb0x2exger2aq86xm2qt2zgy'), (b'via', b'1.1 google'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d7f4664fc66b196-NBO'), (b'Content-Encoding', b'gzip')])
+2024-10-25 06:55:58,399 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 06:55:58,399 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-25 06:55:58,399 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-25 06:55:58,399 - httpcore.http11 - DEBUG - response_closed.started
+2024-10-25 06:55:58,399 - httpcore.http11 - DEBUG - response_closed.complete
+2024-10-25 06:55:58,399 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Fri, 25 Oct 2024 03:56:08 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '20000', 'x-ratelimit-remaining-requests': '14398', 'x-ratelimit-remaining-tokens': '19758', 'x-ratelimit-reset-requests': '11.564999999s', 'x-ratelimit-reset-tokens': '725ms', 'x-request-id': 'req_01jb0x2exger2aq86xm2qt2zgy', 'via': '1.1 google', 'alt-svc': 'h3=":443"; ma=86400', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '8d7f4664fc66b196-NBO', 'content-encoding': 'gzip'})
+2024-10-25 06:55:58,420 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/audio/speech', 'headers': {'Accept': 'application/octet-stream', 'X-Stainless-Raw-Response': 'stream'}, 'files': None, 'json_data': {'input': 'Based on your description, it seems you are referring to a significant impact or event occurring in the middle of the floor, possibly related to changes or activities in the near future. The mention of what I assume are Bible verses or Christian language, such as endless hallowed and events that are first promises, might suggest that this event or impact is divine-related.', 'model': 'tts-1', 'voice': 'nova', 'response_format': 'pcm'}}
+2024-10-25 06:55:58,420 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/speech
+2024-10-25 06:55:58,421 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-10-25 06:55:58,621 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020A016BFF20>
+2024-10-25 06:55:58,621 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000209FD2F4050> server_hostname='api.openai.com' timeout=5.0
+2024-10-25 06:55:58,642 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020A016BFE30>
+2024-10-25 06:55:58,642 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-25 06:55:58,642 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-25 06:55:58,642 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-25 06:55:58,642 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-25 06:55:58,649 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-25 06:56:00,335 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Fri, 25 Oct 2024 03:56:10 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_0774178d33c07c6e234a3ee1b9777120'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=Dv.pRBp5.oLHHL.rGFrtBAze3_QR9otq4WUXlTpJ3DI-1729828570-1.0.1.1-Oo3eAqup.J6L2f_K40IkgOyiJGo8Pn0gzPov4L_Z1Ddgsnm3MfvplqnEgfX7vn2LUV6ICup668bm3NZgfWbjRA; path=/; expires=Fri, 25-Oct-24 04:26:10 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=UCXvVBuLTkirkBNA8Fni6m4e2H6aTh5Ui.IKYmrGsOI-1729828570272-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d7f4669bf878a61-MBA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-10-25 06:56:00,335 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 429 Too Many Requests"
+2024-10-25 06:56:00,335 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/speech "429 Too Many Requests" Headers([('date', 'Fri, 25 Oct 2024 03:56:10 GMT'), ('content-type', 'application/json; charset=utf-8'), ('content-length', '337'), ('connection', 'keep-alive'), ('vary', 'Origin'), ('x-request-id', 'req_0774178d33c07c6e234a3ee1b9777120'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=Dv.pRBp5.oLHHL.rGFrtBAze3_QR9otq4WUXlTpJ3DI-1729828570-1.0.1.1-Oo3eAqup.J6L2f_K40IkgOyiJGo8Pn0gzPov4L_Z1Ddgsnm3MfvplqnEgfX7vn2LUV6ICup668bm3NZgfWbjRA; path=/; expires=Fri, 25-Oct-24 04:26:10 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=UCXvVBuLTkirkBNA8Fni6m4e2H6aTh5Ui.IKYmrGsOI-1729828570272-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8d7f4669bf878a61-MBA'), ('alt-svc', 'h3=":443"; ma=86400')])
+2024-10-25 06:56:00,335 - openai._base_client - DEBUG - request_id: req_0774178d33c07c6e234a3ee1b9777120
+2024-10-25 06:56:00,335 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\Lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openai\_base_client.py", line 1037, in _request
+    response.raise_for_status()
+  File "C:\Users\Lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\httpx\_models.py", line 763, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/audio/speech'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-10-25 06:56:00,376 - openai._base_client - DEBUG - Retrying due to status code 429
+2024-10-25 06:56:00,377 - httpcore.http11 - DEBUG - response_closed.started
+2024-10-25 06:56:00,377 - httpcore.http11 - DEBUG - response_closed.complete
+2024-10-25 06:56:00,378 - openai._base_client - DEBUG - 2 retries left
+2024-10-25 06:56:00,378 - openai._base_client - INFO - Retrying request to /audio/speech in 0.376849 seconds
+2024-10-25 06:56:00,756 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/audio/speech', 'headers': {'Accept': 'application/octet-stream', 'X-Stainless-Raw-Response': 'stream'}, 'files': None, 'json_data': {'input': 'Based on your description, it seems you are referring to a significant impact or event occurring in the middle of the floor, possibly related to changes or activities in the near future. The mention of what I assume are Bible verses or Christian language, such as endless hallowed and events that are first promises, might suggest that this event or impact is divine-related.', 'model': 'tts-1', 'voice': 'nova', 'response_format': 'pcm'}}
+2024-10-25 06:56:00,756 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/speech
+2024-10-25 06:56:00,756 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-10-25 06:56:00,800 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020A016BEF60>
+2024-10-25 06:56:00,801 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000209FD2F4050> server_hostname='api.openai.com' timeout=5.0
+2024-10-25 06:56:00,825 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020A016BEC00>
+2024-10-25 06:56:00,826 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-25 06:56:00,827 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-25 06:56:00,827 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-25 06:56:00,828 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-25 06:56:00,828 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-25 06:56:02,101 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Fri, 25 Oct 2024 03:56:12 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_81dede60840d338a27bfd8b3be0d5f9c'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d7f46776a3e8a65-MBA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-10-25 06:56:02,102 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 429 Too Many Requests"
+2024-10-25 06:56:02,102 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/speech "429 Too Many Requests" Headers({'date': 'Fri, 25 Oct 2024 03:56:12 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_81dede60840d338a27bfd8b3be0d5f9c', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8d7f46776a3e8a65-MBA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-10-25 06:56:02,102 - openai._base_client - DEBUG - request_id: req_81dede60840d338a27bfd8b3be0d5f9c
+2024-10-25 06:56:02,102 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\Lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openai\_base_client.py", line 1037, in _request
+    response.raise_for_status()
+  File "C:\Users\Lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\httpx\_models.py", line 763, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/audio/speech'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openai\_base_client.py", line 1037, in _request
+    response.raise_for_status()
+  File "C:\Users\Lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\httpx\_models.py", line 763, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/audio/speech'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-10-25 06:56:02,112 - openai._base_client - DEBUG - Retrying due to status code 429
+2024-10-25 06:56:02,112 - httpcore.http11 - DEBUG - response_closed.started
+2024-10-25 06:56:02,112 - httpcore.http11 - DEBUG - response_closed.complete
+2024-10-25 06:56:02,113 - openai._base_client - DEBUG - 1 retry left
+2024-10-25 06:56:02,113 - openai._base_client - INFO - Retrying request to /audio/speech in 0.942678 seconds
+2024-10-25 06:56:03,057 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/audio/speech', 'headers': {'Accept': 'application/octet-stream', 'X-Stainless-Raw-Response': 'stream'}, 'files': None, 'json_data': {'input': 'Based on your description, it seems you are referring to a significant impact or event occurring in the middle of the floor, possibly related to changes or activities in the near future. The mention of what I assume are Bible verses or Christian language, such as endless hallowed and events that are first promises, might suggest that this event or impact is divine-related.', 'model': 'tts-1', 'voice': 'nova', 'response_format': 'pcm'}}
+2024-10-25 06:56:03,057 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/speech
+2024-10-25 06:56:03,057 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-10-25 06:56:03,084 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020A016BCE00>
+2024-10-25 06:56:03,084 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000209FD2F4050> server_hostname='api.openai.com' timeout=5.0
+2024-10-25 06:56:03,109 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020A016BC3E0>
+2024-10-25 06:56:03,110 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-25 06:56:03,111 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-25 06:56:03,111 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-25 06:56:03,112 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-25 06:56:03,112 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-25 06:56:04,068 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Fri, 25 Oct 2024 03:56:14 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_be578abbae9343d673b061485741314f'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d7f4685a8e88a5f-MBA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-10-25 06:56:04,070 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 429 Too Many Requests"
+2024-10-25 06:56:04,071 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/speech "429 Too Many Requests" Headers({'date': 'Fri, 25 Oct 2024 03:56:14 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_be578abbae9343d673b061485741314f', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8d7f4685a8e88a5f-MBA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-10-25 06:56:04,071 - openai._base_client - DEBUG - request_id: req_be578abbae9343d673b061485741314f
+2024-10-25 06:56:04,071 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\Lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openai\_base_client.py", line 1037, in _request
+    response.raise_for_status()
+  File "C:\Users\Lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\httpx\_models.py", line 763, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/audio/speech'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openai\_base_client.py", line 1037, in _request
+    response.raise_for_status()
+  File "C:\Users\Lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\httpx\_models.py", line 763, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/audio/speech'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openai\_base_client.py", line 1037, in _request
+    response.raise_for_status()
+  File "C:\Users\Lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\httpx\_models.py", line 763, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/audio/speech'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-10-25 06:56:04,078 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-25 06:56:04,079 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-25 06:56:04,079 - httpcore.http11 - DEBUG - response_closed.started
+2024-10-25 06:56:04,079 - httpcore.http11 - DEBUG - response_closed.complete
+2024-10-25 06:56:04,079 - openai._base_client - DEBUG - Re-raising status error
+2024-10-25 06:58:04,737 - comtypes._post_coinit.unknwn - DEBUG - Calling CoUninitialize()
+2024-10-25 06:58:04,737 - comtypes._post_coinit.unknwn - DEBUG - CoUninitialize() done.
+2024-10-25 06:58:04,783 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000209FCFC4DD0>.Release() -> 0
+2024-10-25 06:58:04,783 - comtypes._comobject - DEBUG - 0 active COM objects: Removed <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000209FCFC4DD0>
+2024-10-25 06:58:04,783 - comtypes._comobject - DEBUG - Remaining: []
+2024-10-25 06:58:04,850 - httpcore.connection - DEBUG - close.started
+2024-10-25 06:58:04,850 - httpcore.connection - DEBUG - close.complete
+2024-10-25 06:58:04,850 - httpcore.connection - DEBUG - close.started
+2024-10-25 06:58:04,850 - httpcore.connection - DEBUG - close.complete
+2024-10-25 06:58:07,262 - __main__ - INFO - Starting main.py
+2024-10-25 06:58:07,262 - __main__ - INFO - Chat log file path: C:\Users\Lance\Desktop\CODEWRLD\ai-personal-assistant\data\chat_history\2024\10\25.log
+2024-10-25 06:58:07,268 - __main__ - INFO - API keys loaded successfully
+2024-10-25 06:58:07,279 - comtypes - DEBUG - CoInitializeEx(None, 2)
+2024-10-25 06:58:07,305 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Lance\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
+2024-10-25 06:58:07,305 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\comtypes\gen'
+2024-10-25 06:58:07,349 - comtypes.client - DEBUG - SAPI.SPVoice -> {96749377-3391-11D2-9EE3-00C04F797396}
+2024-10-25 06:58:07,349 - comtypes.client - DEBUG - CoCreateInstance({96749377-3391-11D2-9EE3-00C04F797396}, clsctx=None, interface=None)
+2024-10-25 06:58:07,369 - comtypes.client - DEBUG - GetBestInterface(<POINTER(IUnknown) ptr=0x1c98b31b730 at 1c99efb9e50>)
+2024-10-25 06:58:07,369 - comtypes.client - DEBUG - Does implement IProvideClassInfo
+2024-10-25 06:58:07,370 - comtypes.client - DEBUG - Default interface is {269316D8-57BD-11D2-9EEE-00C04F797396}
+2024-10-25 06:58:07,370 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x1c98b31b770 at 1c99efba250>
+2024-10-25 06:58:07,372 - comtypes.client._generate - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2024-10-25 06:58:07,372 - comtypes.client - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechVoice'>
+2024-10-25 06:58:07,372 - comtypes.client - DEBUG - Final result is <POINTER(ISpeechVoice) ptr=0x1c98b31b770 at 1c99efba1d0>
+2024-10-25 06:58:07,372 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IProvideClassInfo) ptr=0x1c98b31b790 at 1c99efb9dd0>
+2024-10-25 06:58:07,372 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeInfo) ptr=0x1c99d60b898 at 1c99efb9ed0>
+2024-10-25 06:58:07,372 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeInfo) ptr=0x1c99d60b8f0 at 1c99efb9f50>
+2024-10-25 06:58:07,372 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeLib) ptr=0x1c99dcbfb40 at 1c99efba250>
+2024-10-25 06:58:07,372 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x1c98b31b730 at 1c99efb9e50>
+2024-10-25 06:58:07,372 - comtypes.client._events - DEBUG - <POINTER(ISpeechVoice) ptr=0x1c98b31b770 at 1c99efba1d0> using sinkinterface from clsid <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2024-10-25 06:58:07,372 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IProvideClassInfo2) ptr=0x1c98b31b790 at 1c99efb9e50>
+2024-10-25 06:58:07,372 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001C99EB89B20>: _ISpeechVoiceEvents.VoiceChange not implemented
+2024-10-25 06:58:07,372 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001C99EB89B20>: _ISpeechVoiceEvents.Bookmark not implemented
+2024-10-25 06:58:07,372 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001C99EB89B20>: _ISpeechVoiceEvents.Sentence not implemented
+2024-10-25 06:58:07,372 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001C99EB89B20>: _ISpeechVoiceEvents.Phoneme not implemented
+2024-10-25 06:58:07,372 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001C99EB89B20>: _ISpeechVoiceEvents.Viseme not implemented
+2024-10-25 06:58:07,376 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001C99EB89B20>: _ISpeechVoiceEvents.AudioLevel not implemented
+2024-10-25 06:58:07,376 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001C99EB89B20>: _ISpeechVoiceEvents.EnginePrivate not implemented
+2024-10-25 06:58:07,376 - comtypes.client._events - DEBUG - Start advise <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2024-10-25 06:58:07,376 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001C99EB89B20>.QueryInterface({A372ACD1-3BEF-4BBD-8FFB-CB3E2B416AF8}) -> S_OK
+2024-10-25 06:58:07,377 - comtypes._comobject - DEBUG - 1 active COM objects: Added   <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001C99EB89B20>
+2024-10-25 06:58:07,377 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001C99EB89B20>.AddRef() -> 1
+2024-10-25 06:58:07,378 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IConnectionPointContainer) ptr=0x1c98b31b798 at 1c99efbb5d0>
+2024-10-25 06:58:07,433 - comtypes.client - DEBUG - wrap_outparam(<POINTER(ISpeechObjectToken) ptr=0x1c98b3f2310 at 1c99efbb5d0>)
+2024-10-25 06:58:07,433 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x1c98b3f2310 at 1c99efbb5d0>
+2024-10-25 06:58:07,433 - comtypes.client - DEBUG - wrap_outparam(<POINTER(ISpeechObjectTokens) ptr=0x1c99dd0ca50 at 1c99efbb5d0>)
+2024-10-25 06:58:07,433 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x1c99feb47e0 at 1c99efbb6d0>
+2024-10-25 06:58:07,433 - comtypes.client - DEBUG - wrap_outparam(<POINTER(IDispatch) ptr=0x1c99fe65b00 at 1c99efbb8d0>)
+2024-10-25 06:58:07,433 - comtypes.client - DEBUG - GetBestInterface(<POINTER(IDispatch) ptr=0x1c99fe65b00 at 1c99efbb8d0>)
+2024-10-25 06:58:07,433 - comtypes.client - DEBUG - Does NOT implement IProvideClassInfo, trying IProvideClassInfo2
+2024-10-25 06:58:07,433 - comtypes.client - DEBUG - Does NOT implement IProvideClassInfo/IProvideClassInfo2
+2024-10-25 06:58:07,433 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x1c99d60b9a0 at 1c99efbbad0>
+2024-10-25 06:58:07,433 - comtypes.client - DEBUG - Default interface is {C74A3ADC-B727-4500-A84A-B526721C8B8C}
+2024-10-25 06:58:07,433 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x1c99fe65b00 at 1c99efbbbd0>
+2024-10-25 06:58:07,433 - comtypes.client._generate - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2024-10-25 06:58:07,433 - comtypes.client - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechObjectToken'>
+2024-10-25 06:58:07,433 - comtypes.client - DEBUG - Final result is <POINTER(ISpeechObjectToken) ptr=0x1c99fe65b00 at 1c99efbbad0>
+2024-10-25 06:58:07,433 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IDispatch) ptr=0x1c99fe65b00 at 1c99efbba50>
+2024-10-25 06:58:07,433 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeInfo) ptr=0x1c99d60b9a0 at 1c99efbbb50>
+2024-10-25 06:58:07,433 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeLib) ptr=0x1c99dcbfb40 at 1c99efbbbd0>
+2024-10-25 06:58:07,433 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IDispatch) ptr=0x1c99fe65b00 at 1c99efbb8d0>
+2024-10-25 06:58:07,433 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IEnumVARIANT) ptr=0x1c99feb47e0 at 1c99efbb750>
+2024-10-25 06:58:07,443 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ISpeechObjectTokens) ptr=0x1c99dd0ca50 at 1c99efbb5d0>
+2024-10-25 06:58:07,443 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x1c99fe65b00 at 1c99efbbad0>
+2024-10-25 06:58:07,443 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-10-25 06:58:07,445 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\Lance\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\certifi\\cacert.pem'
+2024-10-25 06:58:07,649 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-10-25 06:58:07,649 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\Lance\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\certifi\\cacert.pem'
+2024-10-25 06:58:08,001 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-25 06:58:08,611 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/Systran/faster-whisper-base/revision/main HTTP/1.1" 200 1848
+2024-10-25 06:58:09,159 - __main__ - INFO - pro instance initialized
+2024-10-25 06:58:22,645 - faster_whisper - INFO - Processing audio with duration 00:08.545
+2024-10-25 06:58:23,220 - faster_whisper - INFO - Detected language 'en' with probability 0.66
+2024-10-25 06:58:23,220 - faster_whisper - DEBUG - Processing segment at 00:00.000
+2024-10-25 06:58:23,321 - faster_whisper - DEBUG - Log probability threshold is not met with temperature 0.0 (-1.094915 < -1.000000)
+2024-10-25 06:58:23,322 - faster_whisper - DEBUG - No speech threshold is met (0.780969 > 0.600000)
+2024-10-25 06:58:34,062 - faster_whisper - INFO - Processing audio with duration 00:10.472
+2024-10-25 06:58:34,629 - faster_whisper - INFO - Detected language 'en' with probability 0.56
+2024-10-25 06:58:34,630 - faster_whisper - DEBUG - Processing segment at 00:00.000
+2024-10-25 06:58:34,809 - faster_whisper - DEBUG - Log probability threshold is not met with temperature 0.0 (-1.035573 < -1.000000)
+2024-10-25 06:58:34,996 - faster_whisper - DEBUG - Log probability threshold is not met with temperature 0.2 (-1.218149 < -1.000000)
+2024-10-25 06:58:35,299 - faster_whisper - DEBUG - Log probability threshold is not met with temperature 0.4 (-1.135056 < -1.000000)
+2024-10-25 06:58:35,562 - faster_whisper - DEBUG - Log probability threshold is not met with temperature 0.6 (-1.302750 < -1.000000)
+2024-10-25 06:58:35,847 - faster_whisper - DEBUG - Log probability threshold is not met with temperature 0.8 (-1.704100 < -1.000000)
+2024-10-25 06:58:36,154 - faster_whisper - DEBUG - Log probability threshold is not met with temperature 1.0 (-1.559741 < -1.000000)
+2024-10-25 06:58:36,154 - faster_whisper - DEBUG - Reset prompt. prompt_reset_on_temperature threshold is met 1.000000 > 0.500000
+2024-10-25 06:58:36,170 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an AI model tasked with selecting the most appropriate action for a voice assistant. Based on the user's prompt, choose one of the following actions: ['extract clipboard', 'take screenshot', 'delete screenshot', 'capture webcam', 'generic']. Assume the webcam is a standard laptop webcam facing the user. Provide only the action without explanations or additional text. Respond strictly with the most suitable option from the list."}, {'role': 'user', 'content': "And what you're going to do is start with the movement."}], 'model': 'llama-3.1-8b-instant'}}
+2024-10-25 06:58:36,251 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2024-10-25 06:58:36,251 - httpcore.connection - DEBUG - connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-10-25 06:58:36,270 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C9A3ABC440>
+2024-10-25 06:58:36,271 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001C99EFBB7D0> server_hostname='api.groq.com' timeout=5.0
+2024-10-25 06:58:36,292 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C99ED5DEB0>
+2024-10-25 06:58:36,292 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-25 06:58:36,293 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-25 06:58:36,293 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-25 06:58:36,293 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-25 06:58:36,293 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-25 06:58:36,966 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 25 Oct 2024 03:58:46 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'vary', b'Origin'), (b'x-ratelimit-limit-requests', b'14400'), (b'x-ratelimit-limit-tokens', b'20000'), (b'x-ratelimit-remaining-requests', b'14399'), (b'x-ratelimit-remaining-tokens', b'19868'), (b'x-ratelimit-reset-requests', b'6s'), (b'x-ratelimit-reset-tokens', b'396ms'), (b'x-request-id', b'req_01jb0x79w9ejha7kmm4yy67edp'), (b'via', b'1.1 google'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=gfDz4LWiwvFy2MqGHHF6hFCmU_FpYUyJ4hMv96tBV_4-1729828726-1.0.1.1-Ude0gThynsyMdyEVbiphFHpmNvieEWHEaK4OoGEIPjIV63JRATBTxs96jEgiJl12OVCbNPoXAZo1zAyFlJharw; path=/; expires=Fri, 25-Oct-24 04:28:46 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d7f4a431cb9b19c-NBO'), (b'Content-Encoding', b'gzip')])
+2024-10-25 06:58:36,981 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 06:58:36,982 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-25 06:58:36,982 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-25 06:58:36,982 - httpcore.http11 - DEBUG - response_closed.started
+2024-10-25 06:58:36,982 - httpcore.http11 - DEBUG - response_closed.complete
+2024-10-25 06:58:36,982 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Fri, 25 Oct 2024 03:58:46 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '20000', 'x-ratelimit-remaining-requests': '14399', 'x-ratelimit-remaining-tokens': '19868', 'x-ratelimit-reset-requests': '6s', 'x-ratelimit-reset-tokens': '396ms', 'x-request-id': 'req_01jb0x79w9ejha7kmm4yy67edp', 'via': '1.1 google', 'alt-svc': 'h3=":443"; ma=86400', 'cf-cache-status': 'DYNAMIC', 'set-cookie': '__cf_bm=gfDz4LWiwvFy2MqGHHF6hFCmU_FpYUyJ4hMv96tBV_4-1729828726-1.0.1.1-Ude0gThynsyMdyEVbiphFHpmNvieEWHEaK4OoGEIPjIV63JRATBTxs96jEgiJl12OVCbNPoXAZo1zAyFlJharw; path=/; expires=Fri, 25-Oct-24 04:28:46 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'cf-ray': '8d7f4a431cb9b19c-NBO', 'content-encoding': 'gzip'})
+2024-10-25 06:58:36,989 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'You are a multi-modal AI voice assistant. Your user may have attached a photo (screenshot or webcam capture) for context, which has already been processed into a detailed text prompt. This will be attached to their transcribed voice input. Generate the most relevant and factual response by carefully considering all previously generated text before adding new information. Do not expect or request additional images; use the provided context if available. Please do not include newlines in your response. Keep it all in one paragraph. Ensure your responses are clear, concise, and relevant to the ongoing conversation, avoiding any unnecessary verbosity.'}, {'role': 'user', 'content': "And what you're going to do is start with the movement."}], 'model': 'llama-3.1-8b-instant'}}
+2024-10-25 06:58:36,990 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2024-10-25 06:58:36,992 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-25 06:58:36,992 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-25 06:58:36,993 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-25 06:58:36,993 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-25 06:58:36,993 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-25 06:58:37,466 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 25 Oct 2024 03:58:47 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'vary', b'Origin'), (b'x-ratelimit-limit-requests', b'14400'), (b'x-ratelimit-limit-tokens', b'20000'), (b'x-ratelimit-remaining-requests', b'14398'), (b'x-ratelimit-remaining-tokens', b'19804'), (b'x-ratelimit-reset-requests', b'11.567999999s'), (b'x-ratelimit-reset-tokens', b'585.999999ms'), (b'x-request-id', b'req_01jb0x7a9se7vvcycf550r9m5g'), (b'via', b'1.1 google'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d7f4a4768c1b19c-NBO'), (b'Content-Encoding', b'gzip')])
+2024-10-25 06:58:37,466 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 06:58:37,466 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-25 06:58:37,466 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-25 06:58:37,466 - httpcore.http11 - DEBUG - response_closed.started
+2024-10-25 06:58:37,466 - httpcore.http11 - DEBUG - response_closed.complete
+2024-10-25 06:58:37,466 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Fri, 25 Oct 2024 03:58:47 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '20000', 'x-ratelimit-remaining-requests': '14398', 'x-ratelimit-remaining-tokens': '19804', 'x-ratelimit-reset-requests': '11.567999999s', 'x-ratelimit-reset-tokens': '585.999999ms', 'x-request-id': 'req_01jb0x7a9se7vvcycf550r9m5g', 'via': '1.1 google', 'alt-svc': 'h3=":443"; ma=86400', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '8d7f4a4768c1b19c-NBO', 'content-encoding': 'gzip'})
+2024-10-25 06:58:37,481 - gtts.tts - DEBUG - text: You mentioned movement related to a specific task or scenario implied by the previously processed text about which I currently know nothing could you please provide additional context so I can give you relevant information
+2024-10-25 06:58:37,481 - gtts.tts - DEBUG - tld: com
+2024-10-25 06:58:37,482 - gtts.tts - DEBUG - lang: en
+2024-10-25 06:58:37,482 - gtts.tts - DEBUG - slow: False
+2024-10-25 06:58:37,482 - gtts.tts - DEBUG - lang_check: True
+2024-10-25 06:58:37,483 - gtts.tts - DEBUG - pre_processor_funcs: [<function tone_marks at 0x000001C99D46B4C0>, <function end_of_line at 0x000001C99D46B560>, <function abbreviations at 0x000001C99D46B600>, <function word_sub at 0x000001C99D46BEC0>]
+2024-10-25 06:58:37,507 - gtts.tts - DEBUG - timeout: None
+2024-10-25 06:58:37,508 - gtts.lang - DEBUG - langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-10-25 06:58:37,509 - gtts.tts - DEBUG - pre-processing: <function tone_marks at 0x000001C99D46B4C0>
+2024-10-25 06:58:37,509 - gtts.tts - DEBUG - pre-processing: <function end_of_line at 0x000001C99D46B560>
+2024-10-25 06:58:37,509 - gtts.tts - DEBUG - pre-processing: <function abbreviations at 0x000001C99D46B600>
+2024-10-25 06:58:37,509 - gtts.tts - DEBUG - pre-processing: <function word_sub at 0x000001C99D46BEC0>
+2024-10-25 06:58:37,514 - gtts.tts - DEBUG - text_parts: ['You mentioned movement related to a specific task or scenario implied by the previously processed', 'text about which I currently know nothing could you please provide additional context so I can give', 'you relevant information']
+2024-10-25 06:58:37,515 - gtts.tts - DEBUG - text_parts: 3
+2024-10-25 06:58:37,515 - gtts.tts - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22You%20mentioned%20movement%20related%20to%20a%20specific%20task%20or%20scenario%20implied%20by%20the%20previously%20processed%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-10-25 06:58:37,515 - gtts.tts - DEBUG - data-1: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22text%20about%20which%20I%20currently%20know%20nothing%20could%20you%20please%20provide%20additional%20context%20so%20I%20can%20give%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-10-25 06:58:37,516 - gtts.tts - DEBUG - data-2: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22you%20relevant%20information%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-10-25 06:58:37,517 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translate.google.com:443
+2024-10-25 06:58:38,682 - urllib3.connectionpool - DEBUG - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2024-10-25 06:58:38,906 - gtts.tts - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '255'}
+2024-10-25 06:58:38,906 - gtts.tts - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-10-25 06:58:38,907 - gtts.tts - DEBUG - status-0: 200
+2024-10-25 06:58:38,912 - gtts.tts - DEBUG - part-0 written to <_io.BufferedWriter name='C:\\Users\\Lance\\Desktop\\CODEWRLD\\ai-personal-assistant\\data\\ai_response\\ai_response_audio.mp3'>
+2024-10-25 06:58:38,913 - gtts.tts - DEBUG - part-0 created
+2024-10-25 06:58:38,914 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translate.google.com:443
+2024-10-25 06:58:39,450 - urllib3.connectionpool - DEBUG - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2024-10-25 06:58:39,648 - gtts.tts - DEBUG - headers-1: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '261'}
+2024-10-25 06:58:39,648 - gtts.tts - DEBUG - url-1: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-10-25 06:58:39,648 - gtts.tts - DEBUG - status-1: 200
+2024-10-25 06:58:39,664 - gtts.tts - DEBUG - part-1 written to <_io.BufferedWriter name='C:\\Users\\Lance\\Desktop\\CODEWRLD\\ai-personal-assistant\\data\\ai_response\\ai_response_audio.mp3'>
+2024-10-25 06:58:39,664 - gtts.tts - DEBUG - part-1 created
+2024-10-25 06:58:39,664 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translate.google.com:443
+2024-10-25 06:58:40,782 - urllib3.connectionpool - DEBUG - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2024-10-25 06:58:40,805 - gtts.tts - DEBUG - headers-2: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '158'}
+2024-10-25 06:58:40,805 - gtts.tts - DEBUG - url-2: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-10-25 06:58:40,805 - gtts.tts - DEBUG - status-2: 200
+2024-10-25 06:58:40,805 - gtts.tts - DEBUG - part-2 written to <_io.BufferedWriter name='C:\\Users\\Lance\\Desktop\\CODEWRLD\\ai-personal-assistant\\data\\ai_response\\ai_response_audio.mp3'>
+2024-10-25 06:58:40,805 - gtts.tts - DEBUG - part-2 created
+2024-10-25 06:58:40,814 - gtts.tts - DEBUG - Saved to C:\Users\Lance\Desktop\CODEWRLD\ai-personal-assistant\data\ai_response\ai_response_audio.mp3
+2024-10-25 06:58:41,193 - pydub.converter - DEBUG - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', 'C:\\Users\\Lance\\Desktop\\CODEWRLD\\ai-personal-assistant\\data\\ai_response\\ai_response_audio.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2024-10-25 06:59:00,457 - faster_whisper - INFO - Processing audio with duration 00:01.579
+2024-10-25 06:59:01,073 - faster_whisper - INFO - Detected language 'en' with probability 0.47
+2024-10-25 06:59:01,074 - faster_whisper - DEBUG - Processing segment at 00:00.000
+2024-10-25 06:59:01,181 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an AI model tasked with selecting the most appropriate action for a voice assistant. Based on the user's prompt, choose one of the following actions: ['extract clipboard', 'take screenshot', 'delete screenshot', 'capture webcam', 'generic']. Assume the webcam is a standard laptop webcam facing the user. Provide only the action without explanations or additional text. Respond strictly with the most suitable option from the list."}, {'role': 'user', 'content': 'You'}], 'model': 'llama-3.1-8b-instant'}}
+2024-10-25 06:59:01,182 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2024-10-25 06:59:01,182 - httpcore.connection - DEBUG - close.started
+2024-10-25 06:59:01,182 - httpcore.connection - DEBUG - close.complete
+2024-10-25 06:59:01,182 - httpcore.connection - DEBUG - connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-10-25 06:59:01,199 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C9A3ABDBE0>
+2024-10-25 06:59:01,200 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001C99EFBB7D0> server_hostname='api.groq.com' timeout=5.0
+2024-10-25 06:59:01,234 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C9A1BB3950>
+2024-10-25 06:59:01,235 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-25 06:59:01,235 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-25 06:59:01,236 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-25 06:59:01,236 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-25 06:59:01,236 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-25 06:59:01,915 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 25 Oct 2024 03:59:11 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'vary', b'Origin'), (b'x-ratelimit-limit-requests', b'14400'), (b'x-ratelimit-limit-tokens', b'20000'), (b'x-ratelimit-remaining-requests', b'14399'), (b'x-ratelimit-remaining-tokens', b'19881'), (b'x-ratelimit-reset-requests', b'6s'), (b'x-ratelimit-reset-tokens', b'357ms'), (b'x-request-id', b'req_01jb0x827sfwm8vmcsfv2dky31'), (b'via', b'1.1 google'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d7f4adefd1d0372-NBO'), (b'Content-Encoding', b'gzip')])
+2024-10-25 06:59:01,915 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 06:59:01,915 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-25 06:59:01,915 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-25 06:59:01,915 - httpcore.http11 - DEBUG - response_closed.started
+2024-10-25 06:59:01,915 - httpcore.http11 - DEBUG - response_closed.complete
+2024-10-25 06:59:01,931 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Fri, 25 Oct 2024 03:59:11 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '20000', 'x-ratelimit-remaining-requests': '14399', 'x-ratelimit-remaining-tokens': '19881', 'x-ratelimit-reset-requests': '6s', 'x-ratelimit-reset-tokens': '357ms', 'x-request-id': 'req_01jb0x827sfwm8vmcsfv2dky31', 'via': '1.1 google', 'alt-svc': 'h3=":443"; ma=86400', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '8d7f4adefd1d0372-NBO', 'content-encoding': 'gzip'})
+2024-10-25 06:59:01,934 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'You are a multi-modal AI voice assistant. Your user may have attached a photo (screenshot or webcam capture) for context, which has already been processed into a detailed text prompt. This will be attached to their transcribed voice input. Generate the most relevant and factual response by carefully considering all previously generated text before adding new information. Do not expect or request additional images; use the provided context if available. Please do not include newlines in your response. Keep it all in one paragraph. Ensure your responses are clear, concise, and relevant to the ongoing conversation, avoiding any unnecessary verbosity.'}, {'role': 'user', 'content': "And what you're going to do is start with the movement."}, {'role': 'assistant', 'content': 'You mentioned movement related to a specific task or scenario implied by the previously processed text about which I currently know nothing could you please provide additional context so I can give you relevant information'}, {'role': 'user', 'content': 'You'}], 'model': 'llama-3.1-8b-instant'}}
+2024-10-25 06:59:01,936 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2024-10-25 06:59:01,936 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-25 06:59:01,936 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-25 06:59:01,936 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-25 06:59:01,936 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-25 06:59:01,936 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-25 06:59:02,698 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 25 Oct 2024 03:59:12 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'vary', b'Origin'), (b'x-ratelimit-limit-requests', b'14400'), (b'x-ratelimit-limit-tokens', b'20000'), (b'x-ratelimit-remaining-requests', b'14398'), (b'x-ratelimit-remaining-tokens', b'19749'), (b'x-ratelimit-reset-requests', b'11.278999999s'), (b'x-ratelimit-reset-tokens', b'753ms'), (b'x-request-id', b'req_01jb0x82ybetg995amkf1r6v77'), (b'via', b'1.1 google'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d7f4ae3891d0372-NBO'), (b'Content-Encoding', b'gzip')])
+2024-10-25 06:59:02,698 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 06:59:02,698 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-25 06:59:02,698 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-25 06:59:02,698 - httpcore.http11 - DEBUG - response_closed.started
+2024-10-25 06:59:02,698 - httpcore.http11 - DEBUG - response_closed.complete
+2024-10-25 06:59:02,698 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Fri, 25 Oct 2024 03:59:12 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '20000', 'x-ratelimit-remaining-requests': '14398', 'x-ratelimit-remaining-tokens': '19749', 'x-ratelimit-reset-requests': '11.278999999s', 'x-ratelimit-reset-tokens': '753ms', 'x-request-id': 'req_01jb0x82ybetg995amkf1r6v77', 'via': '1.1 google', 'alt-svc': 'h3=":443"; ma=86400', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '8d7f4ae3891d0372-NBO', 'content-encoding': 'gzip'})
+2024-10-25 06:59:02,713 - gtts.tts - DEBUG - text: The text prompt provided from the previous voice input and any attached imagery associated are missing, please refer back to the conversation's first voice input to view the text associated and see the transcription with the attachment.
+2024-10-25 06:59:02,713 - gtts.tts - DEBUG - tld: com
+2024-10-25 06:59:02,714 - gtts.tts - DEBUG - lang: en
+2024-10-25 06:59:02,714 - gtts.tts - DEBUG - slow: False
+2024-10-25 06:59:02,715 - gtts.tts - DEBUG - lang_check: True
+2024-10-25 06:59:02,715 - gtts.tts - DEBUG - pre_processor_funcs: [<function tone_marks at 0x000001C99D46B4C0>, <function end_of_line at 0x000001C99D46B560>, <function abbreviations at 0x000001C99D46B600>, <function word_sub at 0x000001C99D46BEC0>]
+2024-10-25 06:59:02,716 - gtts.tts - DEBUG - timeout: None
+2024-10-25 06:59:02,716 - gtts.lang - DEBUG - langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-10-25 06:59:02,716 - gtts.tts - DEBUG - pre-processing: <function tone_marks at 0x000001C99D46B4C0>
+2024-10-25 06:59:02,716 - gtts.tts - DEBUG - pre-processing: <function end_of_line at 0x000001C99D46B560>
+2024-10-25 06:59:02,716 - gtts.tts - DEBUG - pre-processing: <function abbreviations at 0x000001C99D46B600>
+2024-10-25 06:59:02,716 - gtts.tts - DEBUG - pre-processing: <function word_sub at 0x000001C99D46BEC0>
+2024-10-25 06:59:02,723 - gtts.tts - DEBUG - text_parts: ['The text prompt provided from the previous voice input and any attached imagery associated are', 'missing', "please refer back to the conversation's first voice input to view the text associated and see the", 'transcription with the attachment.']
+2024-10-25 06:59:02,724 - gtts.tts - DEBUG - text_parts: 4
+2024-10-25 06:59:02,724 - gtts.tts - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22The%20text%20prompt%20provided%20from%20the%20previous%20voice%20input%20and%20any%20attached%20imagery%20associated%20are%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-10-25 06:59:02,724 - gtts.tts - DEBUG - data-1: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22missing%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-10-25 06:59:02,725 - gtts.tts - DEBUG - data-2: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22please%20refer%20back%20to%20the%20conversation%27s%20first%20voice%20input%20to%20view%20the%20text%20associated%20and%20see%20the%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-10-25 06:59:02,725 - gtts.tts - DEBUG - data-3: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22transcription%20with%20the%20attachment.%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-10-25 06:59:02,725 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translate.google.com:443
+2024-10-25 06:59:03,915 - urllib3.connectionpool - DEBUG - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2024-10-25 06:59:04,120 - gtts.tts - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '252'}
+2024-10-25 06:59:04,120 - gtts.tts - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-10-25 06:59:04,120 - gtts.tts - DEBUG - status-0: 200
+2024-10-25 06:59:04,120 - gtts.tts - DEBUG - part-0 written to <_io.BufferedWriter name='C:\\Users\\Lance\\Desktop\\CODEWRLD\\ai-personal-assistant\\data\\ai_response\\ai_response_audio.mp3'>
+2024-10-25 06:59:04,120 - gtts.tts - DEBUG - part-0 created
+2024-10-25 06:59:04,120 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translate.google.com:443
+2024-10-25 06:59:05,146 - urllib3.connectionpool - DEBUG - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2024-10-25 06:59:05,166 - gtts.tts - DEBUG - headers-1: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '137'}
+2024-10-25 06:59:05,166 - gtts.tts - DEBUG - url-1: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-10-25 06:59:05,167 - gtts.tts - DEBUG - status-1: 200
+2024-10-25 06:59:05,168 - gtts.tts - DEBUG - part-1 written to <_io.BufferedWriter name='C:\\Users\\Lance\\Desktop\\CODEWRLD\\ai-personal-assistant\\data\\ai_response\\ai_response_audio.mp3'>
+2024-10-25 06:59:05,168 - gtts.tts - DEBUG - part-1 created
+2024-10-25 06:59:05,168 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translate.google.com:443
+2024-10-25 06:59:05,683 - urllib3.connectionpool - DEBUG - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2024-10-25 06:59:05,881 - gtts.tts - DEBUG - headers-2: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '261'}
+2024-10-25 06:59:05,881 - gtts.tts - DEBUG - url-2: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-10-25 06:59:05,881 - gtts.tts - DEBUG - status-2: 200
+2024-10-25 06:59:05,881 - gtts.tts - DEBUG - part-2 written to <_io.BufferedWriter name='C:\\Users\\Lance\\Desktop\\CODEWRLD\\ai-personal-assistant\\data\\ai_response\\ai_response_audio.mp3'>
+2024-10-25 06:59:05,881 - gtts.tts - DEBUG - part-2 created
+2024-10-25 06:59:05,881 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translate.google.com:443
+2024-10-25 06:59:06,961 - urllib3.connectionpool - DEBUG - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2024-10-25 06:59:07,059 - gtts.tts - DEBUG - headers-3: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '170'}
+2024-10-25 06:59:07,060 - gtts.tts - DEBUG - url-3: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-10-25 06:59:07,060 - gtts.tts - DEBUG - status-3: 200
+2024-10-25 06:59:07,061 - gtts.tts - DEBUG - part-3 written to <_io.BufferedWriter name='C:\\Users\\Lance\\Desktop\\CODEWRLD\\ai-personal-assistant\\data\\ai_response\\ai_response_audio.mp3'>
+2024-10-25 06:59:07,062 - gtts.tts - DEBUG - part-3 created
+2024-10-25 06:59:07,063 - gtts.tts - DEBUG - Saved to C:\Users\Lance\Desktop\CODEWRLD\ai-personal-assistant\data\ai_response\ai_response_audio.mp3
+2024-10-25 06:59:07,086 - pydub.converter - DEBUG - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', 'C:\\Users\\Lance\\Desktop\\CODEWRLD\\ai-personal-assistant\\data\\ai_response\\ai_response_audio.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2024-10-25 06:59:17,054 - comtypes._post_coinit.unknwn - DEBUG - Calling CoUninitialize()
+2024-10-25 06:59:17,055 - comtypes._post_coinit.unknwn - DEBUG - CoUninitialize() done.
+2024-10-25 06:59:24,917 - __main__ - INFO - Starting main.py
+2024-10-25 06:59:24,918 - __main__ - INFO - Chat log file path: C:\Users\Lance\Desktop\CODEWRLD\ai-personal-assistant\data\chat_history\2024\10\25.log
+2024-10-25 06:59:24,918 - __main__ - INFO - API keys loaded successfully
+2024-10-25 06:59:24,918 - comtypes - DEBUG - CoInitializeEx(None, 2)
+2024-10-25 06:59:24,951 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Lance\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
+2024-10-25 06:59:24,951 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Lance\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\comtypes\gen'
+2024-10-25 06:59:24,989 - comtypes.client - DEBUG - SAPI.SPVoice -> {96749377-3391-11D2-9EE3-00C04F797396}
+2024-10-25 06:59:24,989 - comtypes.client - DEBUG - CoCreateInstance({96749377-3391-11D2-9EE3-00C04F797396}, clsctx=None, interface=None)
+2024-10-25 06:59:24,999 - comtypes.client - DEBUG - GetBestInterface(<POINTER(IUnknown) ptr=0x2290511b730 at 22918cb9e50>)
+2024-10-25 06:59:24,999 - comtypes.client - DEBUG - Does implement IProvideClassInfo
+2024-10-25 06:59:25,010 - comtypes.client - DEBUG - Default interface is {269316D8-57BD-11D2-9EEE-00C04F797396}
+2024-10-25 06:59:25,010 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x2290511b770 at 22918cba250>
+2024-10-25 06:59:25,010 - comtypes.client._generate - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2024-10-25 06:59:25,011 - comtypes.client - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechVoice'>
+2024-10-25 06:59:25,011 - comtypes.client - DEBUG - Final result is <POINTER(ISpeechVoice) ptr=0x2290511b770 at 22918cba1d0>
+2024-10-25 06:59:25,011 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IProvideClassInfo) ptr=0x2290511b790 at 22918cb9dd0>
+2024-10-25 06:59:25,011 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeInfo) ptr=0x22916cedeb8 at 22918cb9ed0>
+2024-10-25 06:59:25,012 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeInfo) ptr=0x22916cedf10 at 22918cb9f50>
+2024-10-25 06:59:25,012 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeLib) ptr=0x229169e7350 at 22918cba250>
+2024-10-25 06:59:25,012 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x2290511b730 at 22918cb9e50>
+2024-10-25 06:59:25,012 - comtypes.client._events - DEBUG - <POINTER(ISpeechVoice) ptr=0x2290511b770 at 22918cba1d0> using sinkinterface from clsid <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2024-10-25 06:59:25,013 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IProvideClassInfo2) ptr=0x2290511b790 at 22918cb9e50>
+2024-10-25 06:59:25,013 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000229189E4F20>: _ISpeechVoiceEvents.VoiceChange not implemented
+2024-10-25 06:59:25,014 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000229189E4F20>: _ISpeechVoiceEvents.Bookmark not implemented
+2024-10-25 06:59:25,014 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000229189E4F20>: _ISpeechVoiceEvents.Sentence not implemented
+2024-10-25 06:59:25,014 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000229189E4F20>: _ISpeechVoiceEvents.Phoneme not implemented
+2024-10-25 06:59:25,015 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000229189E4F20>: _ISpeechVoiceEvents.Viseme not implemented
+2024-10-25 06:59:25,016 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000229189E4F20>: _ISpeechVoiceEvents.AudioLevel not implemented
+2024-10-25 06:59:25,016 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000229189E4F20>: _ISpeechVoiceEvents.EnginePrivate not implemented
+2024-10-25 06:59:25,016 - comtypes.client._events - DEBUG - Start advise <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2024-10-25 06:59:25,016 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000229189E4F20>.QueryInterface({A372ACD1-3BEF-4BBD-8FFB-CB3E2B416AF8}) -> S_OK
+2024-10-25 06:59:25,016 - comtypes._comobject - DEBUG - 1 active COM objects: Added   <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000229189E4F20>
+2024-10-25 06:59:25,016 - comtypes._comobject - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x00000229189E4F20>.AddRef() -> 1
+2024-10-25 06:59:25,016 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IConnectionPointContainer) ptr=0x2290511b798 at 22918cbb5d0>
+2024-10-25 06:59:25,065 - comtypes.client - DEBUG - wrap_outparam(<POINTER(ISpeechObjectToken) ptr=0x229051f2820 at 22918cbb5d0>)
+2024-10-25 06:59:25,065 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x229051f2820 at 22918cbb5d0>
+2024-10-25 06:59:25,065 - comtypes.client - DEBUG - wrap_outparam(<POINTER(ISpeechObjectTokens) ptr=0x22917b0c6d0 at 22918cbb5d0>)
+2024-10-25 06:59:25,065 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x2291aab46a0 at 22918cbb6d0>
+2024-10-25 06:59:25,065 - comtypes.client - DEBUG - wrap_outparam(<POINTER(IDispatch) ptr=0x2291aa65290 at 22918cbb8d0>)
+2024-10-25 06:59:25,065 - comtypes.client - DEBUG - GetBestInterface(<POINTER(IDispatch) ptr=0x2291aa65290 at 22918cbb8d0>)
+2024-10-25 06:59:25,078 - comtypes.client - DEBUG - Does NOT implement IProvideClassInfo, trying IProvideClassInfo2
+2024-10-25 06:59:25,078 - comtypes.client - DEBUG - Does NOT implement IProvideClassInfo/IProvideClassInfo2
+2024-10-25 06:59:25,078 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x22916cedfc0 at 22918cbbad0>
+2024-10-25 06:59:25,078 - comtypes.client - DEBUG - Default interface is {C74A3ADC-B727-4500-A84A-B526721C8B8C}
+2024-10-25 06:59:25,080 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IUnknown) ptr=0x2291aa65290 at 22918cbbbd0>
+2024-10-25 06:59:25,080 - comtypes.client._generate - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2024-10-25 06:59:25,080 - comtypes.client - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechObjectToken'>
+2024-10-25 06:59:25,080 - comtypes.client - DEBUG - Final result is <POINTER(ISpeechObjectToken) ptr=0x2291aa65290 at 22918cbbad0>
+2024-10-25 06:59:25,080 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IDispatch) ptr=0x2291aa65290 at 22918cbba50>
+2024-10-25 06:59:25,081 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeInfo) ptr=0x22916cedfc0 at 22918cbbb50>
+2024-10-25 06:59:25,082 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ITypeLib) ptr=0x229169e7350 at 22918cbbbd0>
+2024-10-25 06:59:25,082 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IDispatch) ptr=0x2291aa65290 at 22918cbb8d0>
+2024-10-25 06:59:25,082 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(IEnumVARIANT) ptr=0x2291aab46a0 at 22918cbb750>
+2024-10-25 06:59:25,082 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ISpeechObjectTokens) ptr=0x22917b0c6d0 at 22918cbb5d0>
+2024-10-25 06:59:25,082 - comtypes._post_coinit.unknwn - DEBUG - Release <POINTER(ISpeechObjectToken) ptr=0x2291aa65290 at 22918cbbad0>
+2024-10-25 06:59:25,083 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-10-25 06:59:25,085 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\Lance\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\certifi\\cacert.pem'
+2024-10-25 06:59:25,291 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-10-25 06:59:25,291 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\Lance\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\certifi\\cacert.pem'
+2024-10-25 06:59:25,635 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-25 06:59:26,367 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/Systran/faster-whisper-base/revision/main HTTP/1.1" 200 1848
+2024-10-25 06:59:26,854 - __main__ - INFO - pro instance initialized
+2024-10-25 06:59:42,243 - faster_whisper - INFO - Processing audio with duration 00:11.819
+2024-10-25 06:59:42,872 - faster_whisper - INFO - Detected language 'en' with probability 0.80
+2024-10-25 06:59:42,872 - faster_whisper - DEBUG - Processing segment at 00:00.000
+2024-10-25 06:59:43,044 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an AI model tasked with selecting the most appropriate action for a voice assistant. Based on the user's prompt, choose one of the following actions: ['extract clipboard', 'take screenshot', 'delete screenshot', 'capture webcam', 'generic']. Assume the webcam is a standard laptop webcam facing the user. Provide only the action without explanations or additional text. Respond strictly with the most suitable option from the list."}, {'role': 'user', 'content': 'Sorry, we will get in on the address for the future.'}], 'model': 'llama-3.1-8b-instant'}}
+2024-10-25 06:59:43,098 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2024-10-25 06:59:43,098 - httpcore.connection - DEBUG - connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-10-25 06:59:43,098 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002291C4FC290>
+2024-10-25 06:59:43,098 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000022918CBB7D0> server_hostname='api.groq.com' timeout=5.0
+2024-10-25 06:59:43,116 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002291BABC470>
+2024-10-25 06:59:43,116 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-25 06:59:43,116 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-25 06:59:43,123 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-25 06:59:43,123 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-25 06:59:43,123 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-25 06:59:43,528 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 25 Oct 2024 03:59:53 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'vary', b'Origin'), (b'x-ratelimit-limit-requests', b'14400'), (b'x-ratelimit-limit-tokens', b'20000'), (b'x-ratelimit-remaining-requests', b'14399'), (b'x-ratelimit-remaining-tokens', b'19868'), (b'x-ratelimit-reset-requests', b'6s'), (b'x-ratelimit-reset-tokens', b'396ms'), (b'x-request-id', b'req_01jb0x9awbewzved0bs25n0kcx'), (b'via', b'1.1 google'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=n58_Hh8fjiLIvKGBkOldvNHHvxkeqX6Rkb8nFlWub08-1729828793-1.0.1.1-OCuAm5gt7SCLT55sD2wSK0tX5B8uWqEBli_UgVu_1.CQu_vKDAz9wX2IHLCe_2I9Aef49D.40bspfH8cuD7umg; path=/; expires=Fri, 25-Oct-24 04:29:53 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d7f4be4bd5b1b5a-NBO'), (b'Content-Encoding', b'gzip')])
+2024-10-25 06:59:43,544 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 06:59:43,544 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-25 06:59:43,544 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-25 06:59:43,544 - httpcore.http11 - DEBUG - response_closed.started
+2024-10-25 06:59:43,548 - httpcore.http11 - DEBUG - response_closed.complete
+2024-10-25 06:59:43,548 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Fri, 25 Oct 2024 03:59:53 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '20000', 'x-ratelimit-remaining-requests': '14399', 'x-ratelimit-remaining-tokens': '19868', 'x-ratelimit-reset-requests': '6s', 'x-ratelimit-reset-tokens': '396ms', 'x-request-id': 'req_01jb0x9awbewzved0bs25n0kcx', 'via': '1.1 google', 'alt-svc': 'h3=":443"; ma=86400', 'cf-cache-status': 'DYNAMIC', 'set-cookie': '__cf_bm=n58_Hh8fjiLIvKGBkOldvNHHvxkeqX6Rkb8nFlWub08-1729828793-1.0.1.1-OCuAm5gt7SCLT55sD2wSK0tX5B8uWqEBli_UgVu_1.CQu_vKDAz9wX2IHLCe_2I9Aef49D.40bspfH8cuD7umg; path=/; expires=Fri, 25-Oct-24 04:29:53 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'cf-ray': '8d7f4be4bd5b1b5a-NBO', 'content-encoding': 'gzip'})
+2024-10-25 06:59:43,554 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': 'You are a multi-modal AI voice assistant. Your user may have attached a photo (screenshot or webcam capture) for context, which has already been processed into a detailed text prompt. This will be attached to their transcribed voice input. Generate the most relevant and factual response by carefully considering all previously generated text before adding new information. Do not expect or request additional images; use the provided context if available. Please do not include newlines in your response. Keep it all in one paragraph. Ensure your responses are clear, concise, and relevant to the ongoing conversation, avoiding any unnecessary verbosity.'}, {'role': 'user', 'content': 'Sorry, we will get in on the address for the future.'}], 'model': 'llama-3.1-8b-instant'}}
+2024-10-25 06:59:43,554 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2024-10-25 06:59:43,554 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-10-25 06:59:43,554 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-10-25 06:59:43,554 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-10-25 06:59:43,554 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-10-25 06:59:43,554 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-10-25 06:59:44,017 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 25 Oct 2024 03:59:53 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'vary', b'Origin'), (b'x-ratelimit-limit-requests', b'14400'), (b'x-ratelimit-limit-tokens', b'20000'), (b'x-ratelimit-remaining-requests', b'14398'), (b'x-ratelimit-remaining-tokens', b'19805'), (b'x-ratelimit-reset-requests', b'11.567999999s'), (b'x-ratelimit-reset-tokens', b'585ms'), (b'x-request-id', b'req_01jb0x9b9vfxj9v2y99hdefkfn'), (b'via', b'1.1 google'), (b'alt-svc', b'h3=":443"; ma=86400'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8d7f4be77eb71b5a-NBO'), (b'Content-Encoding', b'gzip')])
+2024-10-25 06:59:44,017 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 06:59:44,017 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-10-25 06:59:44,030 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-10-25 06:59:44,031 - httpcore.http11 - DEBUG - response_closed.started
+2024-10-25 06:59:44,031 - httpcore.http11 - DEBUG - response_closed.complete
+2024-10-25 06:59:44,031 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Fri, 25 Oct 2024 03:59:53 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '20000', 'x-ratelimit-remaining-requests': '14398', 'x-ratelimit-remaining-tokens': '19805', 'x-ratelimit-reset-requests': '11.567999999s', 'x-ratelimit-reset-tokens': '585ms', 'x-request-id': 'req_01jb0x9b9vfxj9v2y99hdefkfn', 'via': '1.1 google', 'alt-svc': 'h3=":443"; ma=86400', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '8d7f4be77eb71b5a-NBO', 'content-encoding': 'gzip'})
+2024-10-25 06:59:44,034 - gtts.tts - DEBUG - text: I can summarize what information we have currently. This conversation started with something but unfortunately didn't receive a voice message to reference.
+2024-10-25 06:59:44,035 - gtts.tts - DEBUG - tld: com
+2024-10-25 06:59:44,035 - gtts.tts - DEBUG - lang: en
+2024-10-25 06:59:44,035 - gtts.tts - DEBUG - slow: False
+2024-10-25 06:59:44,036 - gtts.tts - DEBUG - lang_check: True
+2024-10-25 06:59:44,036 - gtts.tts - DEBUG - pre_processor_funcs: [<function tone_marks at 0x0000022916F634C0>, <function end_of_line at 0x0000022916F63560>, <function abbreviations at 0x0000022916F63600>, <function word_sub at 0x0000022916F63EC0>]
+2024-10-25 06:59:44,040 - gtts.tts - DEBUG - timeout: None
+2024-10-25 06:59:44,040 - gtts.lang - DEBUG - langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-10-25 06:59:44,040 - gtts.tts - DEBUG - pre-processing: <function tone_marks at 0x0000022916F634C0>
+2024-10-25 06:59:44,040 - gtts.tts - DEBUG - pre-processing: <function end_of_line at 0x0000022916F63560>
+2024-10-25 06:59:44,040 - gtts.tts - DEBUG - pre-processing: <function abbreviations at 0x0000022916F63600>
+2024-10-25 06:59:44,040 - gtts.tts - DEBUG - pre-processing: <function word_sub at 0x0000022916F63EC0>
+2024-10-25 06:59:44,046 - gtts.tts - DEBUG - text_parts: ['I can summarize what information we have currently', "This conversation started with something but unfortunately didn't receive a voice message to", 'reference.']
+2024-10-25 06:59:44,046 - gtts.tts - DEBUG - text_parts: 3
+2024-10-25 06:59:44,047 - gtts.tts - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22I%20can%20summarize%20what%20information%20we%20have%20currently%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-10-25 06:59:44,047 - gtts.tts - DEBUG - data-1: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22This%20conversation%20started%20with%20something%20but%20unfortunately%20didn%27t%20receive%20a%20voice%20message%20to%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-10-25 06:59:44,048 - gtts.tts - DEBUG - data-2: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22reference.%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-10-25 06:59:44,048 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translate.google.com:443
+2024-10-25 06:59:45,147 - urllib3.connectionpool - DEBUG - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2024-10-25 06:59:45,264 - gtts.tts - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '194'}
+2024-10-25 06:59:45,264 - gtts.tts - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-10-25 06:59:45,264 - gtts.tts - DEBUG - status-0: 200
+2024-10-25 06:59:45,264 - gtts.tts - DEBUG - part-0 written to <_io.BufferedWriter name='C:\\Users\\Lance\\Desktop\\CODEWRLD\\ai-personal-assistant\\data\\ai_response\\ai_response_audio.mp3'>
+2024-10-25 06:59:45,264 - gtts.tts - DEBUG - part-0 created
+2024-10-25 06:59:45,280 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translate.google.com:443
+2024-10-25 06:59:45,786 - urllib3.connectionpool - DEBUG - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2024-10-25 06:59:45,976 - gtts.tts - DEBUG - headers-1: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '248'}
+2024-10-25 06:59:45,976 - gtts.tts - DEBUG - url-1: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-10-25 06:59:45,976 - gtts.tts - DEBUG - status-1: 200
+2024-10-25 06:59:45,976 - gtts.tts - DEBUG - part-1 written to <_io.BufferedWriter name='C:\\Users\\Lance\\Desktop\\CODEWRLD\\ai-personal-assistant\\data\\ai_response\\ai_response_audio.mp3'>
+2024-10-25 06:59:45,976 - gtts.tts - DEBUG - part-1 created
+2024-10-25 06:59:45,976 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translate.google.com:443
+2024-10-25 06:59:46,399 - urllib3.connectionpool - DEBUG - https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2024-10-25 06:59:46,415 - gtts.tts - DEBUG - headers-2: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '140'}
+2024-10-25 06:59:46,415 - gtts.tts - DEBUG - url-2: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-10-25 06:59:46,415 - gtts.tts - DEBUG - status-2: 200
+2024-10-25 06:59:46,420 - gtts.tts - DEBUG - part-2 written to <_io.BufferedWriter name='C:\\Users\\Lance\\Desktop\\CODEWRLD\\ai-personal-assistant\\data\\ai_response\\ai_response_audio.mp3'>
+2024-10-25 06:59:46,420 - gtts.tts - DEBUG - part-2 created
+2024-10-25 06:59:46,421 - gtts.tts - DEBUG - Saved to C:\Users\Lance\Desktop\CODEWRLD\ai-personal-assistant\data\ai_response\ai_response_audio.mp3
+2024-10-25 06:59:46,453 - pydub.converter - DEBUG - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', 'C:\\Users\\Lance\\Desktop\\CODEWRLD\\ai-personal-assistant\\data\\ai_response\\ai_response_audio.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2024-10-25 06:59:52,361 - comtypes._post_coinit.unknwn - DEBUG - Calling CoUninitialize()
+2024-10-25 06:59:52,361 - comtypes._post_coinit.unknwn - DEBUG - CoUninitialize() done.
