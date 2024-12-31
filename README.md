@@ -1,4 +1,4 @@
-```markdown
+
 # Foundation
 
 ## Overview
@@ -87,4 +87,3 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 - [Groq](https://groq.com) for their AI model integration.
 - [Pillow](https://python-pillow.org) for image processing capabilities.
 - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/) for voice recognition functionalities.
-```
