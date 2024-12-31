@@ -1,5 +1,3 @@
-Sure! Here’s the README formatted in a way that should be easier for you to copy:
-
 ```markdown
 # Foundation
 
